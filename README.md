@@ -4,6 +4,7 @@ StepTrim trims a STEP assembly down to the parts you need. Load a large STEP (IS
 kernel, remove occurrences from the product tree, and save a STEP file that still opens
 in CAD. Design: [docs/StepTrim_Design.md](docs/StepTrim_Design.md)
 (live copy: <https://claude.ai/code/artifact/16b44a95-789d-42d4-ae2f-6b6396d58d9d>).
+Repository: <https://github.com/santa326/steptrim> (private).
 
 ## Layout
 
