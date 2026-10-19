@@ -1,0 +1,6429 @@
+{
+ "file": "C:/RAVI_T/STEP_STRUCTURE_EDITOR/fixtures/steptools/UMC-500_SS_Solid_Model_2019-06_r1.stp",
+ "import_seconds": 13.75,
+ "objects": 1261,
+ "roots": 806,
+ "instances": 1261,
+ "tree": [
+  {
+   "label": "Origin",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin001",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis001",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis001",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis001",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane001",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane001",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane001",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin002",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis002",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis002",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis002",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane002",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane002",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane002",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin003",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis003",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis003",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis003",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane003",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane003",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane003",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin004",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis004",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis004",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis004",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane004",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane004",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane004",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin005",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis005",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis005",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis005",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane005",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane005",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane005",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin006",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis006",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis006",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis006",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane006",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane006",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane006",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin007",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis007",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis007",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis007",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane007",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane007",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane007",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin008",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis008",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis008",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis008",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane008",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane008",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane008",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin009",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis009",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis009",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis009",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane009",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane009",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane009",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin010",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis010",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis010",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis010",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane010",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane010",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane010",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin011",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis011",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis011",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis011",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane011",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane011",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane011",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin012",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis012",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis012",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis012",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane012",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane012",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane012",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin013",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis013",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis013",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis013",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane013",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane013",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane013",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin014",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis014",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis014",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis014",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane014",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane014",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane014",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin015",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis015",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis015",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis015",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane015",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane015",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane015",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin016",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis016",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis016",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis016",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane016",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane016",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane016",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin017",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis017",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis017",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis017",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane017",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane017",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane017",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin018",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis018",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis018",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis018",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane018",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane018",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane018",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin019",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis019",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis019",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis019",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane019",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane019",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane019",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin020",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis020",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis020",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis020",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane020",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane020",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane020",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin021",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis021",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis021",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis021",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane021",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane021",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane021",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin022",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis022",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis022",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis022",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane022",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane022",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane022",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin023",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis023",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis023",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis023",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane023",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane023",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane023",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin024",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis024",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis024",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis024",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane024",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane024",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane024",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin025",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis025",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis025",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis025",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane025",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane025",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane025",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin026",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis026",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis026",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis026",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane026",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane026",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane026",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin027",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis027",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis027",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis027",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane027",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane027",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane027",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin028",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis028",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis028",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis028",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane028",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane028",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane028",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin029",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis029",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis029",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis029",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane029",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane029",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane029",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin030",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis030",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis030",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis030",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane030",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane030",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane030",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin031",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis031",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis031",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis031",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane031",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane031",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane031",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin032",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis032",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis032",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis032",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane032",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane032",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane032",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin033",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis033",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis033",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis033",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane033",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane033",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane033",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin034",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis034",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis034",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis034",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane034",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane034",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane034",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin035",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis035",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis035",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis035",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane035",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane035",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane035",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin036",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis036",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis036",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis036",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane036",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane036",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane036",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin037",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis037",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis037",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis037",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane037",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane037",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane037",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin038",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis038",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis038",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis038",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane038",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane038",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane038",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin039",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis039",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis039",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis039",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane039",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane039",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane039",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin040",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis040",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis040",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis040",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane040",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane040",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane040",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin041",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis041",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis041",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis041",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane041",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane041",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane041",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin042",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis042",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis042",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis042",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane042",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane042",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane042",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin043",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis043",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis043",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis043",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane043",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane043",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane043",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin044",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis044",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis044",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis044",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane044",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane044",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane044",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin045",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis045",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis045",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis045",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane045",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane045",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane045",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin046",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis046",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis046",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis046",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane046",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane046",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane046",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin047",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis047",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis047",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis047",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane047",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane047",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane047",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin048",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis048",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis048",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis048",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane048",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane048",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane048",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin049",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis049",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis049",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis049",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane049",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane049",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane049",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin050",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis050",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis050",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis050",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane050",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane050",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane050",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin051",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis051",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis051",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis051",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane051",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane051",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane051",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin052",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis052",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis052",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis052",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane052",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane052",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane052",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin053",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis053",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis053",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis053",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane053",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane053",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane053",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin054",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis054",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis054",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis054",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane054",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane054",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane054",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin055",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis055",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis055",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis055",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane055",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane055",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane055",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin056",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis056",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis056",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis056",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane056",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane056",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane056",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin057",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis057",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis057",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis057",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane057",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane057",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane057",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin058",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis058",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis058",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis058",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane058",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane058",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane058",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin059",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis059",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis059",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis059",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane059",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane059",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane059",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin060",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis060",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis060",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis060",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane060",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane060",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane060",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin061",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis061",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis061",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis061",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane061",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane061",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane061",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin062",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis062",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis062",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis062",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane062",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane062",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane062",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin063",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis063",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis063",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis063",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane063",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane063",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane063",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin064",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis064",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis064",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis064",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane064",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane064",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane064",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin065",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis065",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis065",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis065",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane065",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane065",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane065",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin066",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis066",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis066",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis066",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane066",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane066",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane066",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin067",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis067",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis067",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis067",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane067",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane067",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane067",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin068",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis068",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis068",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis068",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane068",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane068",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane068",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin069",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis069",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis069",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis069",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane069",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane069",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane069",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin070",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis070",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis070",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis070",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane070",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane070",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane070",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin071",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis071",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis071",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis071",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane071",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane071",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane071",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin072",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis072",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis072",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis072",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane072",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane072",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane072",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin073",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis073",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis073",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis073",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane073",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane073",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane073",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin074",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis074",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis074",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis074",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane074",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane074",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane074",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin075",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis075",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis075",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis075",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane075",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane075",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane075",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin076",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis076",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis076",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis076",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane076",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane076",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane076",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin077",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis077",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis077",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis077",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane077",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane077",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane077",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin078",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis078",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis078",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis078",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane078",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane078",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane078",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin079",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis079",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis079",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis079",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane079",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane079",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane079",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin080",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis080",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis080",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis080",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane080",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane080",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane080",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin081",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis081",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis081",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis081",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane081",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane081",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane081",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin082",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis082",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis082",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis082",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane082",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane082",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane082",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin083",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis083",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis083",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis083",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane083",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane083",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane083",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin084",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis084",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis084",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis084",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane084",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane084",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane084",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin085",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis085",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis085",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis085",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane085",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane085",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane085",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin086",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis086",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis086",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis086",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane086",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane086",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane086",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin087",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis087",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis087",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis087",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane087",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane087",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane087",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin088",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis088",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis088",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis088",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane088",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane088",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane088",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin089",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis089",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis089",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis089",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane089",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane089",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane089",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin090",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis090",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis090",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis090",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane090",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane090",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane090",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin091",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis091",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis091",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis091",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane091",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane091",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane091",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin092",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis092",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis092",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis092",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane092",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane092",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane092",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin093",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis093",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis093",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis093",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane093",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane093",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane093",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin094",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis094",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis094",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis094",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane094",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane094",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane094",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin095",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis095",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis095",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis095",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane095",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane095",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane095",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin096",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis096",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis096",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis096",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane096",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane096",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane096",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin097",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis097",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis097",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis097",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane097",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane097",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane097",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin098",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis098",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis098",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis098",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane098",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane098",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane098",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin099",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis099",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis099",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis099",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane099",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane099",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane099",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin100",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis100",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis100",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis100",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane100",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane100",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane100",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin101",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis101",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis101",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis101",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane101",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane101",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane101",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin102",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis102",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis102",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis102",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane102",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane102",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane102",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin103",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis103",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis103",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis103",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane103",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane103",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane103",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin104",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis104",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis104",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis104",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane104",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane104",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane104",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin105",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis105",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis105",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis105",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane105",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane105",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane105",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin106",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis106",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis106",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis106",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane106",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane106",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane106",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin107",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis107",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis107",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis107",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane107",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane107",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane107",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin108",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis108",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis108",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis108",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane108",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane108",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane108",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin109",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis109",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis109",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis109",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane109",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane109",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane109",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin110",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis110",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis110",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis110",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane110",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane110",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane110",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin111",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis111",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis111",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis111",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane111",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane111",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane111",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin112",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis112",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis112",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis112",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane112",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane112",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane112",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin113",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis113",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis113",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis113",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane113",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane113",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane113",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "UMC-500_SS_Solid_Model_2019-06_r1_STEP",
+   "type": "App::Part",
+   "children": [
+    {
+     "label": "Base  Casting_BASE",
+     "type": "App::Part",
+     "children": [
+      {
+       "label": "10000083418053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "44-0018A053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "44-0018A053020",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000083249053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000083249053019001",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "46-1670053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "46-1670053020",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "46-1670053021",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "46-1670053022",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "46-1670053023",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "46-1670053024",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "44-0018A053021",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "44-0018A053022",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "44-0018A053023",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "44-0018A053024",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000083249053019002",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000083249053019003",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000083249053019004",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000083249053019005",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000090565053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000083421053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000095331053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000096255053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000096255053019001",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "40-1661",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "40-1662",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "40-1663",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "40-1664",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000077650053019",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "60-0052053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000075856053019",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000101226053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000112886053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000092208053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000109050053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000075655053019",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019001",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019001",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019002",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019002",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019003",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019003",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019004",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019004",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019005",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019005",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019006",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019006",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019007",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019007",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019008",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019008",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019009",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019009",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019010",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019010",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019011",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019011",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019012",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019012",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019013",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019013",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019014",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019014",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019015",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019015",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019016",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019016",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019017",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019017",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019018",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019018",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019019",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019019",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019020",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019020",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019021",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019021",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019022",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019022",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019023",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019023",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019024",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019024",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019025",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019025",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019026",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019026",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019027",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019027",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019028",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019028",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019029",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019029",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019030",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019030",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019031",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019031",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019032",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019032",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019033",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019033",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019034",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019034",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019035",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019035",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019036",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019036",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019037",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019037",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019038",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019038",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019039",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019039",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019040",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019040",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019041",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019041",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019042",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019042",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019043",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019043",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019044",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019044",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019045",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019045",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019046",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019046",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019047",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019047",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019048",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019048",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000075655053019049",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000079046053019049",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "50-0042_01053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "50-0042_01053020",
+       "type": "Part::Feature",
+       "children": []
+      }
+     ]
+    },
+    {
+     "label": "X Axis_SADDLE",
+     "type": "App::Part",
+     "children": [
+      {
+       "label": "10000085886053019",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000085888053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000085889053019",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000107343",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000107343001",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000115087053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "50-0042_02053021",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "50-0042_02053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "50-0042_02053020",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "50-0042_02053024",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "50-0042_02053022",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "50-0042_02053023",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "50-0042_02053027",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "50-0042_02053025",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "50-0042_02053026",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "50-0042_02053030",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "50-0042_02053028",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "50-0042_02053029",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "50-3300_02053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "50-3300_02053020",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "50-3300_02053021",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "50-3300_02053022",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000096964053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000107343002",
+       "type": "Part::Feature",
+       "children": []
+      }
+     ]
+    },
+    {
+     "label": "Y Axis_RAM",
+     "type": "App::Part",
+     "children": [
+      {
+       "label": "10000097381053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000085569053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000096841053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000085569053019001",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000107860053019002",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000107860053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000107860053019001",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000107860053019005",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000107860053019003",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000107860053019004",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000115056053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "50-3300_01053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "50-3300_02053023",
+       "type": "Part::Feature",
+       "children": []
+      }
+     ]
+    },
+    {
+     "label": "Z Axis_SPINDLE HEAD",
+     "type": "App::Part",
+     "children": [
+      {
+       "label": "10000083433053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000117305053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000098237053019",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000083474053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000098236",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000098236001",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000098237053019001",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000083474053019001",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000098236002",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000098236003",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000085610053019003",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000085610053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000085610053019001",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000085610053019002",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000085772053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000085772053019001",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000091530053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000092859053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "Spindle Face",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "Spindle nose",
+         "type": "App::Part",
+         "children": [
+          {
+           "label": "10000066257053019",
+           "type": "App::Part",
+           "children": [
+            {
+             "label": "10000066255053019",
+             "type": "App::Part",
+             "children": [
+              {
+               "label": "20-4196C053019",
+               "type": "Part::Feature",
+               "children": []
+              },
+              {
+               "label": "10000008003053019",
+               "type": "App::Part",
+               "children": [
+                {
+                 "label": "20-7021D053019",
+                 "type": "Part::Feature",
+                 "children": []
+                }
+               ]
+              },
+              {
+               "label": "20-4936A053019",
+               "type": "Part::Feature",
+               "children": []
+              },
+              {
+               "label": "10000068573053019",
+               "type": "Part::Feature",
+               "children": []
+              },
+              {
+               "label": "20-5614053019",
+               "type": "Part::Feature",
+               "children": []
+              },
+              {
+               "label": "59-1132053019",
+               "type": "Part::Feature",
+               "children": []
+              },
+              {
+               "label": "59-1133053019",
+               "type": "Part::Feature",
+               "children": []
+              },
+              {
+               "label": "59-1134053019",
+               "type": "Part::Feature",
+               "children": []
+              },
+              {
+               "label": "59-1135053019",
+               "type": "Part::Feature",
+               "children": []
+              },
+              {
+               "label": "59-1136053019",
+               "type": "Part::Feature",
+               "children": []
+              },
+              {
+               "label": "59-1137053019",
+               "type": "Part::Feature",
+               "children": []
+              },
+              {
+               "label": "59-1138053019",
+               "type": "Part::Feature",
+               "children": []
+              },
+              {
+               "label": "59-1139053019",
+               "type": "Part::Feature",
+               "children": []
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "label": "58-0658053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "58-0658053020",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "58-0658053021",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "58-0658053022",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000098331053019",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "B Axis Trunion_ROTARY 500",
+     "type": "App::Part",
+     "children": [
+      {
+       "label": "40-0235",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "40-1665",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000094686053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000059815",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "40-1666",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "40-1667",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "40-1668",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "40-1669",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "40-1670",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "40-1671",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "40-1672",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "40-1673",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000095035053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "40-1674",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "40-1675",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000108256053019",
+       "type": "Part::Feature",
+       "children": []
+      }
+     ]
+    },
+    {
+     "label": "C Axis Platter",
+     "type": "App::Part",
+     "children": [
+      {
+       "label": "10000105768053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "20-5716053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "Work Envelope002",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "Work Envelope",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "Work Envelope001",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Enclosure_ENCLOSURE",
+     "type": "App::Part",
+     "children": [
+      {
+       "label": "10000109360053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000109358053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "28-7472B053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000109293053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000109730053019",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000109731053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000109729053019",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000109054053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000109767053019_Default<As Machined>003",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000109767053019_Default<As Machined>",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000109767053019_Default<As Machined>001",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000109767053019_Default<As Machined>002",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000109762053019_Default<As Machined>",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000109757053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000109746053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "26-0155053022",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "26-0155053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "26-0155053020",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "26-0155053021",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "26-0155053026",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "26-0155053023",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "26-0155053024",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "26-0155053025",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000108114053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000098367053019_Default<As Machined>002",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000098367053019_Default<As Machined>",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000098367053019_Default<As Machined>001",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000109031053019",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000095168053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000109364053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "59-0694053019",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000095513053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000108905053019",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000108901053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "22-8895_01053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "28-0131_01053019",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000111411053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000110595053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000110595053019001",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000109934053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000111433053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000047292053019",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000047280053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000041803053019",
+         "type": "App::Part",
+         "children": [
+          {
+           "label": "10000041801053019",
+           "type": "Part::Feature",
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "label": "10000047292053019001",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000047280053019001",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000041803053019001",
+         "type": "App::Part",
+         "children": [
+          {
+           "label": "10000041801053019001",
+           "type": "Part::Feature",
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "label": "10000051270053019_OM Mount",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000048968053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000041803053019002",
+         "type": "App::Part",
+         "children": [
+          {
+           "label": "10000041801053019002",
+           "type": "Part::Feature",
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "label": "10000051270053019_OM Mount001",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000048968053019001",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000041803053019003",
+         "type": "App::Part",
+         "children": [
+          {
+           "label": "10000041801053019003",
+           "type": "Part::Feature",
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "label": "10000109027053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000106431053019002",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000106431053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000106431053019001",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000109584053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000109644053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000109638053019002",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000109638053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000109638053019001",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000111813053019002",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000111813053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000111813053019001",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000095282053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000084779053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000084777053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000085901053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000116694053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000108867053019_Default<As Machined>004",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000108867053019_Default<As Machined>",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000108867053019_Default<As Machined>001",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000108867053019_Default<As Machined>002",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000108867053019_Default<As Machined>003",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000109263053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000024475053019",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "25-10251A_02053021",
+         "type": "App::Part",
+         "children": [
+          {
+           "label": "25-10251A_02053019",
+           "type": "Part::Feature",
+           "children": []
+          },
+          {
+           "label": "25-10251A_02053020",
+           "type": "Part::Feature",
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "label": "10000109043053019002",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000109043053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000109043053019001",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000109636053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000109634053019_Default<As Machined>",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000109589053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000107379053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000093020053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000111932053019002",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000111932053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000111932053019001",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000112040053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000094797053019_UMC-1000 CT Tooling",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000091528053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000063696053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000029391053019",
+         "type": "App::Part",
+         "children": [
+          {
+           "label": "10000029386053019",
+           "type": "Part::Feature",
+           "children": []
+          }
+         ]
+        },
+        {
+         "label": "10000093005053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000101039053019",
+         "type": "App::Part",
+         "children": [
+          {
+           "label": "10000101038053019",
+           "type": "Part::Feature",
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Control (Thin Style)053021",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "Control (Thin Style)053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "Control (Thin Style)053020",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "Electrical Cabinet-1053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000095374053019_Default<As Machined>008",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000095374053019_Default<As Machined>",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000095374053019_Default<As Machined>001",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000095374053019_Default<As Machined>002",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000095374053019_Default<As Machined>003",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000095374053019_Default<As Machined>004",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000095374053019_Default<As Machined>005",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000095374053019_Default<As Machined>006",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000095374053019_Default<As Machined>007",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "Pneumatic Cabinet053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000098078002",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000098078",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000098078001",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000108876",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000116707003",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000116707",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000116707001",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000116707002",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "X Axis way cover",
+       "type": "Part::Feature",
+       "children": []
+      }
+     ]
+    },
+    {
+     "label": "Tool Changer Arm_SMTC 50 PCKT 40T CT UMC-500 37-4175",
+     "type": "App::Part",
+     "children": [
+      {
+       "label": "10000081186053019_Default 30-12177 EC-400",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000011134053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000024752",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "30-4024A053019",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000084556053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000024753053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "20-0243A053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000024750053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "40-1675A053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "40-1675A053020",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "40-1675A053021",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "40-1675A053022",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "40-1675A053023",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "40-1675A053024",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000024750053019001",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "20-0243A053020",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "55 Gal (208L) Coolant Tank_UMC-542",
+     "type": "App::Part",
+     "children": [
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-500",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-501",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-502",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-503",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-504",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-505",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-506",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-507",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-508",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-509",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-510",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-511",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-512",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-513",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-514",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-515",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-516",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-517",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-518",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-519",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-520",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-521",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-522",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-523",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-524",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-525",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-526",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-527",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-528",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-529",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-530",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-531",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-532",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-533",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-534",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-535",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-536",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-537",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-538",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-539",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-540",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "55 Gal (208L) Coolant Tank_UMC-541",
+       "type": "Part::Feature",
+       "children": []
+      }
+     ]
+    },
+    {
+     "label": "Chip Conveyor_Deployed",
+     "type": "App::Part",
+     "children": [
+      {
+       "label": "10000109738053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000109737053019003",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "10000109737053019",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000109737053019001",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000109737053019002",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000109734053019",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000109736053019",
+       "type": "Part::Feature",
+       "children": []
+      }
+     ]
+    },
+    {
+     "label": "P-Cool (Option)_UMC",
+     "type": "App::Part",
+     "children": [
+      {
+       "label": "10000019102Pcool",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "20-3491BPcool",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "57-0419Pcool",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "10000110788Pcool",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "14-2149Pcool002",
+         "type": "App::Part",
+         "children": [
+          {
+           "label": "14-2149Pcool",
+           "type": "Part::Feature",
+           "children": []
+          },
+          {
+           "label": "14-2149Pcool001",
+           "type": "Part::Feature",
+           "children": []
+          }
+         ]
+        },
+        {
+         "label": "57-2211Pcool",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000102890Pcool",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000087957Pcool",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "58-0584Pcool",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "10000102606Pcool",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "58-1693Pcool",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "58-1693Pcool001",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "58-0960_HORIZONTAL NOZZLE",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "10000018375Pcool",
+       "type": "Part::Feature",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Origin114",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis114",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis114",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis114",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane114",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane114",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane114",
+   "type": "App::Plane",
+   "children": []
+  }
+ ]
+}

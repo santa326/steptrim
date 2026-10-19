@@ -1,0 +1,22 @@
+[package]
+name = "steptrim-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "stepinfo"
+path = "src/main.rs"
+
+[dependencies]
+steptrim-core = { path = "../steptrim-core" }
+anyhow.workspace = true
+clap.workspace = true
+memmap2.workspace = true
+rayon.workspace = true
+serde_json.workspace = true
+itoa = "1"
+
+[[bin]]
+name = "stepreplicate"
+path = "src/replicate.rs"

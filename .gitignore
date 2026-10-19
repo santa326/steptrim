@@ -1,0 +1,8 @@
+/target
+/fixtures/**/*.stp
+/fixtures/**/*.step
+/fixtures/**/*.STEP
+/fixtures/**/*.STP
+/fixtures/**/*.part
+/fixtures/*.log
+*.stpidx

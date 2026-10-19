@@ -1,0 +1,3346 @@
+{
+  "definitions": 182,
+  "entities": 706267,
+  "file": "fixtures/steptools/UMC-500_SS_Solid_Model_2019-06_r1.stp",
+  "instances": 351,
+  "occurrences": 290,
+  "products": 182,
+  "roots": [
+    {
+      "bodies": 0,
+      "children": [
+        {
+          "bodies": 42,
+          "definition": 363770,
+          "has_shape": true,
+          "name": "55 Gal (208L) Coolant Tank_UMC-500",
+          "occurrence": 705986,
+          "occurrence_name": " ",
+          "pid": "55 Gal (208L) Coolant Tank_UMC-500"
+        },
+        {
+          "bodies": 0,
+          "children": [
+            {
+              "bodies": 1,
+              "definition": 222955,
+              "has_shape": true,
+              "name": "10000059815",
+              "occurrence": 706107,
+              "occurrence_name": " ",
+              "pid": "10000059815"
+            },
+            {
+              "bodies": 1,
+              "definition": 259463,
+              "has_shape": true,
+              "name": "10000094686053019",
+              "occurrence": 706106,
+              "occurrence_name": " ",
+              "pid": "10000094686053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 186641,
+              "has_shape": true,
+              "name": "10000095035053019",
+              "occurrence": 706116,
+              "occurrence_name": " ",
+              "pid": "10000095035053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 150264,
+              "has_shape": true,
+              "name": "10000108256053019",
+              "occurrence": 706119,
+              "occurrence_name": " ",
+              "pid": "10000108256053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 295967,
+              "has_shape": true,
+              "name": "40-0235",
+              "occurrence": 706104,
+              "occurrence_name": " ",
+              "pid": "40-0235"
+            },
+            {
+              "bodies": 1,
+              "definition": 295967,
+              "has_shape": true,
+              "name": "40-0235",
+              "occurrence": 706108,
+              "occurrence_name": " ",
+              "pid": "40-0235"
+            },
+            {
+              "bodies": 1,
+              "definition": 295967,
+              "has_shape": true,
+              "name": "40-0235",
+              "occurrence": 706109,
+              "occurrence_name": " ",
+              "pid": "40-0235"
+            },
+            {
+              "bodies": 1,
+              "definition": 295967,
+              "has_shape": true,
+              "name": "40-0235",
+              "occurrence": 706115,
+              "occurrence_name": " ",
+              "pid": "40-0235"
+            },
+            {
+              "bodies": 1,
+              "definition": 295967,
+              "has_shape": true,
+              "name": "40-0235",
+              "occurrence": 706117,
+              "occurrence_name": " ",
+              "pid": "40-0235"
+            },
+            {
+              "bodies": 1,
+              "definition": 295967,
+              "has_shape": true,
+              "name": "40-0235",
+              "occurrence": 706118,
+              "occurrence_name": " ",
+              "pid": "40-0235"
+            },
+            {
+              "bodies": 1,
+              "definition": 291781,
+              "has_shape": true,
+              "name": "40-1661",
+              "occurrence": 706105,
+              "occurrence_name": " ",
+              "pid": "40-1661"
+            },
+            {
+              "bodies": 1,
+              "definition": 291781,
+              "has_shape": true,
+              "name": "40-1661",
+              "occurrence": 706110,
+              "occurrence_name": " ",
+              "pid": "40-1661"
+            },
+            {
+              "bodies": 1,
+              "definition": 291781,
+              "has_shape": true,
+              "name": "40-1661",
+              "occurrence": 706111,
+              "occurrence_name": " ",
+              "pid": "40-1661"
+            },
+            {
+              "bodies": 1,
+              "definition": 291781,
+              "has_shape": true,
+              "name": "40-1661",
+              "occurrence": 706112,
+              "occurrence_name": " ",
+              "pid": "40-1661"
+            },
+            {
+              "bodies": 1,
+              "definition": 291781,
+              "has_shape": true,
+              "name": "40-1661",
+              "occurrence": 706113,
+              "occurrence_name": " ",
+              "pid": "40-1661"
+            },
+            {
+              "bodies": 1,
+              "definition": 291781,
+              "has_shape": true,
+              "name": "40-1661",
+              "occurrence": 706114,
+              "occurrence_name": " ",
+              "pid": "40-1661"
+            }
+          ],
+          "definition": 113805,
+          "has_shape": true,
+          "name": "B Axis Trunion_ROTARY 500",
+          "occurrence": 705982,
+          "occurrence_name": " ",
+          "pid": "B Axis Trunion_ROTARY 500"
+        },
+        {
+          "bodies": 0,
+          "children": [
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706213,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706214,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706215,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706216,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706217,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706218,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706219,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706220,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706221,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706222,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706223,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706224,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706225,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706226,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706227,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706228,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706229,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706230,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706231,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706232,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706233,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706234,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706235,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706236,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706237,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706238,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706239,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706240,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706241,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706242,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706243,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706244,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706245,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706246,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706247,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706248,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706249,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706250,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706251,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706252,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706253,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706254,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706255,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706256,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706257,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706258,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706259,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706260,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706261,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 85,
+                  "has_shape": true,
+                  "name": "10000079046053019",
+                  "occurrence": 706265,
+                  "occurrence_name": " ",
+                  "pid": "10000079046053019"
+                }
+              ],
+              "definition": 669815,
+              "has_shape": true,
+              "name": "10000075655053019",
+              "occurrence": 706262,
+              "occurrence_name": " ",
+              "pid": "10000075655053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 218771,
+                  "has_shape": true,
+                  "name": "10000075856053019",
+                  "occurrence": 706267,
+                  "occurrence_name": " ",
+                  "pid": "10000075856053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 255249,
+                  "has_shape": true,
+                  "name": "60-0052053019",
+                  "occurrence": 706266,
+                  "occurrence_name": " ",
+                  "pid": "60-0052053019"
+                }
+              ],
+              "definition": 182519,
+              "has_shape": true,
+              "name": "10000077650053019",
+              "occurrence": 706208,
+              "occurrence_name": " ",
+              "pid": "10000077650053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 510504,
+              "has_shape": true,
+              "name": "10000083249053019",
+              "occurrence": 706183,
+              "occurrence_name": " ",
+              "pid": "10000083249053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 510504,
+              "has_shape": true,
+              "name": "10000083249053019",
+              "occurrence": 706184,
+              "occurrence_name": " ",
+              "pid": "10000083249053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 510504,
+              "has_shape": true,
+              "name": "10000083249053019",
+              "occurrence": 706195,
+              "occurrence_name": " ",
+              "pid": "10000083249053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 510504,
+              "has_shape": true,
+              "name": "10000083249053019",
+              "occurrence": 706196,
+              "occurrence_name": " ",
+              "pid": "10000083249053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 510504,
+              "has_shape": true,
+              "name": "10000083249053019",
+              "occurrence": 706197,
+              "occurrence_name": " ",
+              "pid": "10000083249053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 510504,
+              "has_shape": true,
+              "name": "10000083249053019",
+              "occurrence": 706198,
+              "occurrence_name": " ",
+              "pid": "10000083249053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 583499,
+              "has_shape": true,
+              "name": "10000083418053019",
+              "occurrence": 706180,
+              "occurrence_name": " ",
+              "pid": "10000083418053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 401198,
+              "has_shape": true,
+              "name": "10000083421053019",
+              "occurrence": 706200,
+              "occurrence_name": " ",
+              "pid": "10000083421053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 437875,
+              "has_shape": true,
+              "name": "10000090565053019",
+              "occurrence": 706199,
+              "occurrence_name": " ",
+              "pid": "10000090565053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 73098,
+              "has_shape": true,
+              "name": "10000092208053019",
+              "occurrence": 706211,
+              "occurrence_name": " ",
+              "pid": "10000092208053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 364750,
+              "has_shape": true,
+              "name": "10000095331053019",
+              "occurrence": 706201,
+              "occurrence_name": " ",
+              "pid": "10000095331053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 328313,
+              "has_shape": true,
+              "name": "10000096255053019",
+              "occurrence": 706202,
+              "occurrence_name": " ",
+              "pid": "10000096255053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 328313,
+              "has_shape": true,
+              "name": "10000096255053019",
+              "occurrence": 706203,
+              "occurrence_name": " ",
+              "pid": "10000096255053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 146042,
+              "has_shape": true,
+              "name": "10000101226053019",
+              "occurrence": 706209,
+              "occurrence_name": " ",
+              "pid": "10000101226053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 36751,
+              "has_shape": true,
+              "name": "10000109050053019",
+              "occurrence": 706212,
+              "occurrence_name": " ",
+              "pid": "10000109050053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 109583,
+              "has_shape": true,
+              "name": "10000112886053019",
+              "occurrence": 706210,
+              "occurrence_name": " ",
+              "pid": "10000112886053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 291781,
+              "has_shape": true,
+              "name": "40-1661",
+              "occurrence": 706204,
+              "occurrence_name": " ",
+              "pid": "40-1661"
+            },
+            {
+              "bodies": 1,
+              "definition": 291781,
+              "has_shape": true,
+              "name": "40-1661",
+              "occurrence": 706205,
+              "occurrence_name": " ",
+              "pid": "40-1661"
+            },
+            {
+              "bodies": 1,
+              "definition": 291781,
+              "has_shape": true,
+              "name": "40-1661",
+              "occurrence": 706206,
+              "occurrence_name": " ",
+              "pid": "40-1661"
+            },
+            {
+              "bodies": 1,
+              "definition": 291781,
+              "has_shape": true,
+              "name": "40-1661",
+              "occurrence": 706207,
+              "occurrence_name": " ",
+              "pid": "40-1661"
+            },
+            {
+              "bodies": 1,
+              "definition": 546991,
+              "has_shape": true,
+              "name": "44-0018A053019",
+              "occurrence": 706181,
+              "occurrence_name": " ",
+              "pid": "44-0018A053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 546991,
+              "has_shape": true,
+              "name": "44-0018A053019",
+              "occurrence": 706182,
+              "occurrence_name": " ",
+              "pid": "44-0018A053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 546991,
+              "has_shape": true,
+              "name": "44-0018A053019",
+              "occurrence": 706191,
+              "occurrence_name": " ",
+              "pid": "44-0018A053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 546991,
+              "has_shape": true,
+              "name": "44-0018A053019",
+              "occurrence": 706192,
+              "occurrence_name": " ",
+              "pid": "44-0018A053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 546991,
+              "has_shape": true,
+              "name": "44-0018A053019",
+              "occurrence": 706193,
+              "occurrence_name": " ",
+              "pid": "44-0018A053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 546991,
+              "has_shape": true,
+              "name": "44-0018A053019",
+              "occurrence": 706194,
+              "occurrence_name": " ",
+              "pid": "44-0018A053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 474324,
+              "has_shape": true,
+              "name": "46-1670053019",
+              "occurrence": 706185,
+              "occurrence_name": " ",
+              "pid": "46-1670053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 474324,
+              "has_shape": true,
+              "name": "46-1670053019",
+              "occurrence": 706186,
+              "occurrence_name": " ",
+              "pid": "46-1670053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 474324,
+              "has_shape": true,
+              "name": "46-1670053019",
+              "occurrence": 706187,
+              "occurrence_name": " ",
+              "pid": "46-1670053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 474324,
+              "has_shape": true,
+              "name": "46-1670053019",
+              "occurrence": 706188,
+              "occurrence_name": " ",
+              "pid": "46-1670053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 474324,
+              "has_shape": true,
+              "name": "46-1670053019",
+              "occurrence": 706189,
+              "occurrence_name": " ",
+              "pid": "46-1670053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 474324,
+              "has_shape": true,
+              "name": "46-1670053019",
+              "occurrence": 706190,
+              "occurrence_name": " ",
+              "pid": "46-1670053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 633477,
+              "has_shape": true,
+              "name": "50-0042_01053019",
+              "occurrence": 706263,
+              "occurrence_name": " ",
+              "pid": "50-0042_01053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 633477,
+              "has_shape": true,
+              "name": "50-0042_01053019",
+              "occurrence": 706264,
+              "occurrence_name": " ",
+              "pid": "50-0042_01053019"
+            }
+          ],
+          "definition": 597019,
+          "has_shape": true,
+          "name": "Base  Casting_BASE",
+          "occurrence": 705978,
+          "occurrence_name": " ",
+          "pid": "Base  Casting_BASE"
+        },
+        {
+          "bodies": 0,
+          "children": [
+            {
+              "bodies": 1,
+              "definition": 77200,
+              "has_shape": true,
+              "name": "10000105768053019",
+              "occurrence": 706101,
+              "occurrence_name": " ",
+              "pid": "10000105768053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 40974,
+              "has_shape": true,
+              "name": "20-5716053019",
+              "occurrence": 706102,
+              "occurrence_name": " ",
+              "pid": "20-5716053019"
+            },
+            {
+              "bodies": 2,
+              "definition": 4319,
+              "has_shape": true,
+              "name": "Work Envelope",
+              "occurrence": 706103,
+              "occurrence_name": " ",
+              "pid": "Work Envelope"
+            }
+          ],
+          "definition": 673992,
+          "has_shape": true,
+          "name": "C Axis Platter",
+          "occurrence": 705983,
+          "occurrence_name": " ",
+          "pid": "C Axis Platter"
+        },
+        {
+          "bodies": 0,
+          "children": [
+            {
+              "bodies": 1,
+              "definition": 254251,
+              "has_shape": true,
+              "name": "10000109734053019",
+              "occurrence": 706005,
+              "occurrence_name": " ",
+              "pid": "10000109734053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 217741,
+              "has_shape": true,
+              "name": "10000109736053019",
+              "occurrence": 706006,
+              "occurrence_name": " ",
+              "pid": "10000109736053019"
+            },
+            {
+              "bodies": 3,
+              "definition": 290782,
+              "has_shape": true,
+              "name": "10000109737053019",
+              "occurrence": 706004,
+              "occurrence_name": " ",
+              "pid": "10000109737053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 327283,
+              "has_shape": true,
+              "name": "10000109738053019",
+              "occurrence": 706003,
+              "occurrence_name": " ",
+              "pid": "10000109738053019"
+            }
+          ],
+          "definition": 181515,
+          "has_shape": true,
+          "name": "Chip Conveyor_Deployed",
+          "occurrence": 705987,
+          "occurrence_name": " ",
+          "pid": "Chip Conveyor_Deployed"
+        },
+        {
+          "bodies": 0,
+          "children": [
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 2,
+                  "definition": 336768,
+                  "has_shape": true,
+                  "name": "25-10251A_02053019",
+                  "occurrence": 706087,
+                  "occurrence_name": " ",
+                  "pid": "25-10251A_02053019"
+                }
+              ],
+              "definition": 300122,
+              "has_shape": true,
+              "name": "10000024475053019",
+              "occurrence": 706062,
+              "occurrence_name": " ",
+              "pid": "10000024475053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 0,
+                  "children": [
+                    {
+                      "bodies": 1,
+                      "definition": 286672,
+                      "has_shape": true,
+                      "name": "10000041801053019",
+                      "occurrence": 706092,
+                      "occurrence_name": " ",
+                      "pid": "10000041801053019"
+                    }
+                  ],
+                  "definition": 250021,
+                  "has_shape": true,
+                  "name": "10000041803053019",
+                  "occurrence": 706091,
+                  "occurrence_name": " ",
+                  "pid": "10000041803053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 323135,
+                  "has_shape": true,
+                  "name": "10000047280053019",
+                  "occurrence": 706090,
+                  "occurrence_name": " ",
+                  "pid": "10000047280053019"
+                }
+              ],
+              "definition": 213581,
+              "has_shape": true,
+              "name": "10000047292053019",
+              "occurrence": 706045,
+              "occurrence_name": " ",
+              "pid": "10000047292053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 0,
+                  "children": [
+                    {
+                      "bodies": 1,
+                      "definition": 286672,
+                      "has_shape": true,
+                      "name": "10000041801053019",
+                      "occurrence": 706092,
+                      "occurrence_name": " ",
+                      "pid": "10000041801053019"
+                    }
+                  ],
+                  "definition": 250021,
+                  "has_shape": true,
+                  "name": "10000041803053019",
+                  "occurrence": 706091,
+                  "occurrence_name": " ",
+                  "pid": "10000041803053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 323135,
+                  "has_shape": true,
+                  "name": "10000047280053019",
+                  "occurrence": 706090,
+                  "occurrence_name": " ",
+                  "pid": "10000047280053019"
+                }
+              ],
+              "definition": 213581,
+              "has_shape": true,
+              "name": "10000047292053019",
+              "occurrence": 706046,
+              "occurrence_name": " ",
+              "pid": "10000047292053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 0,
+                  "children": [
+                    {
+                      "bodies": 1,
+                      "definition": 286672,
+                      "has_shape": true,
+                      "name": "10000041801053019",
+                      "occurrence": 706092,
+                      "occurrence_name": " ",
+                      "pid": "10000041801053019"
+                    }
+                  ],
+                  "definition": 250021,
+                  "has_shape": true,
+                  "name": "10000041803053019",
+                  "occurrence": 706089,
+                  "occurrence_name": " ",
+                  "pid": "10000041803053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 177409,
+                  "has_shape": true,
+                  "name": "10000048968053019",
+                  "occurrence": 706088,
+                  "occurrence_name": " ",
+                  "pid": "10000048968053019"
+                }
+              ],
+              "definition": 140936,
+              "has_shape": true,
+              "name": "10000051270053019_OM Mount",
+              "occurrence": 706047,
+              "occurrence_name": " ",
+              "pid": "10000051270053019_OM Mount"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 0,
+                  "children": [
+                    {
+                      "bodies": 1,
+                      "definition": 286672,
+                      "has_shape": true,
+                      "name": "10000041801053019",
+                      "occurrence": 706092,
+                      "occurrence_name": " ",
+                      "pid": "10000041801053019"
+                    }
+                  ],
+                  "definition": 250021,
+                  "has_shape": true,
+                  "name": "10000041803053019",
+                  "occurrence": 706089,
+                  "occurrence_name": " ",
+                  "pid": "10000041803053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 177409,
+                  "has_shape": true,
+                  "name": "10000048968053019",
+                  "occurrence": 706088,
+                  "occurrence_name": " ",
+                  "pid": "10000048968053019"
+                }
+              ],
+              "definition": 140936,
+              "has_shape": true,
+              "name": "10000051270053019_OM Mount",
+              "occurrence": 706048,
+              "occurrence_name": " ",
+              "pid": "10000051270053019_OM Mount"
+            },
+            {
+              "bodies": 1,
+              "definition": 518901,
+              "has_shape": true,
+              "name": "10000084777053019",
+              "occurrence": 706057,
+              "occurrence_name": " ",
+              "pid": "10000084777053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 555318,
+              "has_shape": true,
+              "name": "10000084779053019",
+              "occurrence": 706056,
+              "occurrence_name": " ",
+              "pid": "10000084779053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 482614,
+              "has_shape": true,
+              "name": "10000085901053019",
+              "occurrence": 706058,
+              "occurrence_name": " ",
+              "pid": "10000085901053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 81460,
+              "has_shape": true,
+              "name": "10000093020053019",
+              "occurrence": 706068,
+              "occurrence_name": " ",
+              "pid": "10000093020053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 0,
+                  "children": [
+                    {
+                      "bodies": 1,
+                      "definition": 605427,
+                      "has_shape": true,
+                      "name": "10000029386053019",
+                      "occurrence": 706086,
+                      "occurrence_name": " ",
+                      "pid": "10000029386053019"
+                    }
+                  ],
+                  "definition": 568957,
+                  "has_shape": true,
+                  "name": "10000029391053019",
+                  "occurrence": 706082,
+                  "occurrence_name": " ",
+                  "pid": "10000029391053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 641765,
+                  "has_shape": true,
+                  "name": "10000063696053019",
+                  "occurrence": 706081,
+                  "occurrence_name": " ",
+                  "pid": "10000063696053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 678164,
+                  "has_shape": true,
+                  "name": "10000091528053019",
+                  "occurrence": 706080,
+                  "occurrence_name": " ",
+                  "pid": "10000091528053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 532466,
+                  "has_shape": true,
+                  "name": "10000093005053019",
+                  "occurrence": 706083,
+                  "occurrence_name": " ",
+                  "pid": "10000093005053019"
+                },
+                {
+                  "bodies": 0,
+                  "children": [
+                    {
+                      "bodies": 1,
+                      "definition": 496070,
+                      "has_shape": true,
+                      "name": "10000101038053019",
+                      "occurrence": 706085,
+                      "occurrence_name": " ",
+                      "pid": "10000101038053019"
+                    }
+                  ],
+                  "definition": 459841,
+                  "has_shape": true,
+                  "name": "10000101039053019",
+                  "occurrence": 706084,
+                  "occurrence_name": " ",
+                  "pid": "10000101039053019"
+                }
+              ],
+              "definition": 423349,
+              "has_shape": true,
+              "name": "10000094797053019_UMC-1000 CT Tooling",
+              "occurrence": 706071,
+              "occurrence_name": " ",
+              "pid": "10000094797053019_UMC-1000 CT Tooling"
+            },
+            {
+              "bodies": 1,
+              "definition": 591823,
+              "has_shape": true,
+              "name": "10000095282053019",
+              "occurrence": 706055,
+              "occurrence_name": " ",
+              "pid": "10000095282053019"
+            },
+            {
+              "bodies": 8,
+              "definition": 313760,
+              "has_shape": true,
+              "name": "10000095374053019_Default<As Machined>",
+              "occurrence": 706074,
+              "occurrence_name": " ",
+              "pid": "10000095374053019_Default<As Machined>"
+            },
+            {
+              "bodies": 1,
+              "definition": 651131,
+              "has_shape": true,
+              "name": "10000095513053019",
+              "occurrence": 706038,
+              "occurrence_name": " ",
+              "pid": "10000095513053019"
+            },
+            {
+              "bodies": 2,
+              "definition": 240634,
+              "has_shape": true,
+              "name": "10000098078",
+              "occurrence": 706076,
+              "occurrence_name": " ",
+              "pid": "10000098078"
+            },
+            {
+              "bodies": 2,
+              "definition": 127338,
+              "has_shape": true,
+              "name": "10000098367053019_Default<As Machined>",
+              "occurrence": 706036,
+              "occurrence_name": " ",
+              "pid": "10000098367053019_Default<As Machined>"
+            },
+            {
+              "bodies": 2,
+              "definition": 67959,
+              "has_shape": true,
+              "name": "10000106431053019",
+              "occurrence": 706050,
+              "occurrence_name": " ",
+              "pid": "10000106431053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 117954,
+              "has_shape": true,
+              "name": "10000107379053019",
+              "occurrence": 706067,
+              "occurrence_name": " ",
+              "pid": "10000107379053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 163755,
+              "has_shape": true,
+              "name": "10000108114053019",
+              "occurrence": 706035,
+              "occurrence_name": " ",
+              "pid": "10000108114053019"
+            },
+            {
+              "bodies": 4,
+              "definition": 409631,
+              "has_shape": true,
+              "name": "10000108867053019_Default<As Machined>",
+              "occurrence": 706060,
+              "occurrence_name": " ",
+              "pid": "10000108867053019_Default<As Machined>"
+            },
+            {
+              "bodies": 1,
+              "definition": 204268,
+              "has_shape": true,
+              "name": "10000108876",
+              "occurrence": 706077,
+              "occurrence_name": " ",
+              "pid": "10000108876"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 614808,
+                  "has_shape": true,
+                  "name": "10000108901053019",
+                  "occurrence": 706093,
+                  "occurrence_name": " ",
+                  "pid": "10000108901053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 578359,
+                  "has_shape": true,
+                  "name": "22-8895_01053019",
+                  "occurrence": 706094,
+                  "occurrence_name": " ",
+                  "pid": "22-8895_01053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 541850,
+                  "has_shape": true,
+                  "name": "28-0131_01053019",
+                  "occurrence": 706095,
+                  "occurrence_name": " ",
+                  "pid": "28-0131_01053019"
+                }
+              ],
+              "definition": 505391,
+              "has_shape": true,
+              "name": "10000108905053019",
+              "occurrence": 706039,
+              "occurrence_name": " ",
+              "pid": "10000108905053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 104333,
+              "has_shape": true,
+              "name": "10000109027053019",
+              "occurrence": 706049,
+              "occurrence_name": " ",
+              "pid": "10000109027053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 90835,
+                  "has_shape": true,
+                  "name": "10000095168053019",
+                  "occurrence": 706096,
+                  "occurrence_name": " ",
+                  "pid": "10000095168053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 54435,
+                  "has_shape": true,
+                  "name": "10000109364053019",
+                  "occurrence": 706097,
+                  "occurrence_name": " ",
+                  "pid": "10000109364053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 17936,
+                  "has_shape": true,
+                  "name": "59-0694053019",
+                  "occurrence": 706098,
+                  "occurrence_name": " ",
+                  "pid": "59-0694053019"
+                }
+              ],
+              "definition": 687611,
+              "has_shape": true,
+              "name": "10000109031053019",
+              "occurrence": 706037,
+              "occurrence_name": " ",
+              "pid": "10000109031053019"
+            },
+            {
+              "bodies": 2,
+              "definition": 263609,
+              "has_shape": true,
+              "name": "10000109043053019",
+              "occurrence": 706063,
+              "occurrence_name": " ",
+              "pid": "10000109043053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 382481,
+              "has_shape": true,
+              "name": "10000109054053019",
+              "occurrence": 706028,
+              "occurrence_name": " ",
+              "pid": "10000109054053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 373166,
+              "has_shape": true,
+              "name": "10000109263053019",
+              "occurrence": 706061,
+              "occurrence_name": " ",
+              "pid": "10000109263053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 528246,
+              "has_shape": true,
+              "name": "10000109293053019",
+              "occurrence": 706026,
+              "occurrence_name": " ",
+              "pid": "10000109293053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 601298,
+              "has_shape": true,
+              "name": "10000109358053019",
+              "occurrence": 706024,
+              "occurrence_name": " ",
+              "pid": "10000109358053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 637638,
+              "has_shape": true,
+              "name": "10000109360053019",
+              "occurrence": 706023,
+              "occurrence_name": " ",
+              "pid": "10000109360053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 31628,
+              "has_shape": true,
+              "name": "10000109584053019",
+              "occurrence": 706051,
+              "occurrence_name": " ",
+              "pid": "10000109584053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 154403,
+              "has_shape": true,
+              "name": "10000109589053019",
+              "occurrence": 706066,
+              "occurrence_name": " ",
+              "pid": "10000109589053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 190856,
+              "has_shape": true,
+              "name": "10000109634053019_Default<As Machined>",
+              "occurrence": 706065,
+              "occurrence_name": " ",
+              "pid": "10000109634053019_Default<As Machined>"
+            },
+            {
+              "bodies": 1,
+              "definition": 227189,
+              "has_shape": true,
+              "name": "10000109636053019",
+              "occurrence": 706064,
+              "occurrence_name": " ",
+              "pid": "10000109636053019"
+            },
+            {
+              "bodies": 2,
+              "definition": 664605,
+              "has_shape": true,
+              "name": "10000109638053019",
+              "occurrence": 706053,
+              "occurrence_name": " ",
+              "pid": "10000109638053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 701147,
+              "has_shape": true,
+              "name": "10000109644053019",
+              "occurrence": 706052,
+              "occurrence_name": " ",
+              "pid": "10000109644053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 455710,
+                  "has_shape": true,
+                  "name": "10000109729053019",
+                  "occurrence": 706100,
+                  "occurrence_name": " ",
+                  "pid": "10000109729053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 491971,
+                  "has_shape": true,
+                  "name": "10000109731053019",
+                  "occurrence": 706099,
+                  "occurrence_name": " ",
+                  "pid": "10000109731053019"
+                }
+              ],
+              "definition": 419149,
+              "has_shape": true,
+              "name": "10000109730053019",
+              "occurrence": 706027,
+              "occurrence_name": " ",
+              "pid": "10000109730053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 236488,
+              "has_shape": true,
+              "name": "10000109746053019",
+              "occurrence": 706032,
+              "occurrence_name": " ",
+              "pid": "10000109746053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 272981,
+              "has_shape": true,
+              "name": "10000109757053019",
+              "occurrence": 706031,
+              "occurrence_name": " ",
+              "pid": "10000109757053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 309585,
+              "has_shape": true,
+              "name": "10000109762053019_Default<As Machined>",
+              "occurrence": 706030,
+              "occurrence_name": " ",
+              "pid": "10000109762053019_Default<As Machined>"
+            },
+            {
+              "bodies": 3,
+              "definition": 346142,
+              "has_shape": true,
+              "name": "10000109767053019_Default<As Machined>",
+              "occurrence": 706029,
+              "occurrence_name": " ",
+              "pid": "10000109767053019_Default<As Machined>"
+            },
+            {
+              "bodies": 1,
+              "definition": 396062,
+              "has_shape": true,
+              "name": "10000109934053019",
+              "occurrence": 706043,
+              "occurrence_name": " ",
+              "pid": "10000109934053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 432715,
+              "has_shape": true,
+              "name": "10000110595053019",
+              "occurrence": 706041,
+              "occurrence_name": " ",
+              "pid": "10000110595053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 432715,
+              "has_shape": true,
+              "name": "10000110595053019",
+              "occurrence": 706042,
+              "occurrence_name": " ",
+              "pid": "10000110595053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 469195,
+              "has_shape": true,
+              "name": "10000111411053019",
+              "occurrence": 706040,
+              "occurrence_name": " ",
+              "pid": "10000111411053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 359539,
+              "has_shape": true,
+              "name": "10000111433053019",
+              "occurrence": 706044,
+              "occurrence_name": " ",
+              "pid": "10000111433053019"
+            },
+            {
+              "bodies": 2,
+              "definition": 628341,
+              "has_shape": true,
+              "name": "10000111813053019",
+              "occurrence": 706054,
+              "occurrence_name": " ",
+              "pid": "10000111813053019"
+            },
+            {
+              "bodies": 2,
+              "definition": 45084,
+              "has_shape": true,
+              "name": "10000111932053019",
+              "occurrence": 706069,
+              "occurrence_name": " ",
+              "pid": "10000111932053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 8536,
+              "has_shape": true,
+              "name": "10000112040053019",
+              "occurrence": 706070,
+              "occurrence_name": " ",
+              "pid": "10000112040053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 446296,
+              "has_shape": true,
+              "name": "10000116694053019",
+              "occurrence": 706059,
+              "occurrence_name": " ",
+              "pid": "10000116694053019"
+            },
+            {
+              "bodies": 3,
+              "definition": 168002,
+              "has_shape": true,
+              "name": "10000116707",
+              "occurrence": 706078,
+              "occurrence_name": " ",
+              "pid": "10000116707"
+            },
+            {
+              "bodies": 3,
+              "definition": 200212,
+              "has_shape": true,
+              "name": "26-0155053019",
+              "occurrence": 706033,
+              "occurrence_name": " ",
+              "pid": "26-0155053019"
+            },
+            {
+              "bodies": 3,
+              "definition": 200212,
+              "has_shape": true,
+              "name": "26-0155053019",
+              "occurrence": 706034,
+              "occurrence_name": " ",
+              "pid": "26-0155053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 564731,
+              "has_shape": true,
+              "name": "28-7472B053019",
+              "occurrence": 706025,
+              "occurrence_name": " ",
+              "pid": "28-7472B053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 386684,
+              "has_shape": true,
+              "name": "Control (Thin Style)053019",
+              "occurrence": 706072,
+              "occurrence_name": " ",
+              "pid": "Control (Thin Style)053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 350255,
+              "has_shape": true,
+              "name": "Electrical Cabinet-1053019",
+              "occurrence": 706073,
+              "occurrence_name": " ",
+              "pid": "Electrical Cabinet-1053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 277239,
+              "has_shape": true,
+              "name": "Pneumatic Cabinet053019",
+              "occurrence": 706075,
+              "occurrence_name": " ",
+              "pid": "Pneumatic Cabinet053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 131520,
+              "has_shape": true,
+              "name": "X Axis way cover",
+              "occurrence": 706079,
+              "occurrence_name": " ",
+              "pid": "X Axis way cover"
+            }
+          ],
+          "definition": 94980,
+          "has_shape": true,
+          "name": "Enclosure_ENCLOSURE",
+          "occurrence": 705984,
+          "occurrence_name": " ",
+          "pid": "Enclosure_ENCLOSURE"
+        },
+        {
+          "bodies": 0,
+          "children": [
+            {
+              "bodies": 1,
+              "definition": 377327,
+              "has_shape": true,
+              "name": "10000018375Pcool",
+              "occurrence": 705996,
+              "occurrence_name": " ",
+              "pid": "10000018375Pcool"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 35745,
+                  "has_shape": true,
+                  "name": "10000110788Pcool",
+                  "occurrence": 706000,
+                  "occurrence_name": " ",
+                  "pid": "10000110788Pcool"
+                },
+                {
+                  "bodies": 2,
+                  "definition": 705397,
+                  "has_shape": true,
+                  "name": "14-2149Pcool",
+                  "occurrence": 706001,
+                  "occurrence_name": " ",
+                  "pid": "14-2149Pcool"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 145077,
+                  "has_shape": true,
+                  "name": "20-3491BPcool",
+                  "occurrence": 705998,
+                  "occurrence_name": " ",
+                  "pid": "20-3491BPcool"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 72053,
+                  "has_shape": true,
+                  "name": "57-0419Pcool",
+                  "occurrence": 705999,
+                  "occurrence_name": " ",
+                  "pid": "57-0419Pcool"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 668837,
+                  "has_shape": true,
+                  "name": "57-2211Pcool",
+                  "occurrence": 706002,
+                  "occurrence_name": " ",
+                  "pid": "57-2211Pcool"
+                }
+              ],
+              "definition": 632477,
+              "has_shape": true,
+              "name": "10000019102Pcool",
+              "occurrence": 705989,
+              "occurrence_name": " ",
+              "pid": "10000019102Pcool"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 559580,
+                  "has_shape": true,
+                  "name": "58-0584Pcool",
+                  "occurrence": 705997,
+                  "occurrence_name": " ",
+                  "pid": "58-0584Pcool"
+                }
+              ],
+              "definition": 523078,
+              "has_shape": true,
+              "name": "10000087957Pcool",
+              "occurrence": 705991,
+              "occurrence_name": " ",
+              "pid": "10000087957Pcool"
+            },
+            {
+              "bodies": 1,
+              "definition": 486755,
+              "has_shape": true,
+              "name": "10000102606Pcool",
+              "occurrence": 705992,
+              "occurrence_name": " ",
+              "pid": "10000102606Pcool"
+            },
+            {
+              "bodies": 1,
+              "definition": 596041,
+              "has_shape": true,
+              "name": "10000102890Pcool",
+              "occurrence": 705990,
+              "occurrence_name": " ",
+              "pid": "10000102890Pcool"
+            },
+            {
+              "bodies": 1,
+              "definition": 413920,
+              "has_shape": true,
+              "name": "58-0960_HORIZONTAL NOZZLE",
+              "occurrence": 705995,
+              "occurrence_name": " ",
+              "pid": "58-0960_HORIZONTAL NOZZLE"
+            },
+            {
+              "bodies": 1,
+              "definition": 450534,
+              "has_shape": true,
+              "name": "58-1693Pcool",
+              "occurrence": 705993,
+              "occurrence_name": " ",
+              "pid": "58-1693Pcool"
+            },
+            {
+              "bodies": 1,
+              "definition": 450534,
+              "has_shape": true,
+              "name": "58-1693Pcool",
+              "occurrence": 705994,
+              "occurrence_name": " ",
+              "pid": "58-1693Pcool"
+            }
+          ],
+          "definition": 340963,
+          "has_shape": true,
+          "name": "P-Cool (Option)_UMC",
+          "occurrence": 705988,
+          "occurrence_name": " ",
+          "pid": "P-Cool (Option)_UMC"
+        },
+        {
+          "bodies": 0,
+          "children": [
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 58610,
+                  "has_shape": true,
+                  "name": "10000011134053019",
+                  "occurrence": 706021,
+                  "occurrence_name": " ",
+                  "pid": "10000011134053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 22168,
+                  "has_shape": true,
+                  "name": "10000024752",
+                  "occurrence": 706022,
+                  "occurrence_name": " ",
+                  "pid": "10000024752"
+                }
+              ],
+              "definition": 655235,
+              "has_shape": true,
+              "name": "10000081186053019_Default 30-12177 EC-400",
+              "occurrence": 706007,
+              "occurrence_name": " ",
+              "pid": "10000081186053019_Default 30-12177 EC-400"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 509529,
+                  "has_shape": true,
+                  "name": "10000024750053019",
+                  "occurrence": 706012,
+                  "occurrence_name": " ",
+                  "pid": "10000024750053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 509529,
+                  "has_shape": true,
+                  "name": "10000024750053019",
+                  "occurrence": 706019,
+                  "occurrence_name": " ",
+                  "pid": "10000024750053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 582513,
+                  "has_shape": true,
+                  "name": "10000024753053019",
+                  "occurrence": 706010,
+                  "occurrence_name": " ",
+                  "pid": "10000024753053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 618976,
+                  "has_shape": true,
+                  "name": "10000084556053019",
+                  "occurrence": 706009,
+                  "occurrence_name": " ",
+                  "pid": "10000084556053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 545966,
+                  "has_shape": true,
+                  "name": "20-0243A053019",
+                  "occurrence": 706011,
+                  "occurrence_name": " ",
+                  "pid": "20-0243A053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 545966,
+                  "has_shape": true,
+                  "name": "20-0243A053019",
+                  "occurrence": 706020,
+                  "occurrence_name": " ",
+                  "pid": "20-0243A053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 473336,
+                  "has_shape": true,
+                  "name": "40-1675A053019",
+                  "occurrence": 706013,
+                  "occurrence_name": " ",
+                  "pid": "40-1675A053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 473336,
+                  "has_shape": true,
+                  "name": "40-1675A053019",
+                  "occurrence": 706014,
+                  "occurrence_name": " ",
+                  "pid": "40-1675A053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 473336,
+                  "has_shape": true,
+                  "name": "40-1675A053019",
+                  "occurrence": 706015,
+                  "occurrence_name": " ",
+                  "pid": "40-1675A053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 473336,
+                  "has_shape": true,
+                  "name": "40-1675A053019",
+                  "occurrence": 706016,
+                  "occurrence_name": " ",
+                  "pid": "40-1675A053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 473336,
+                  "has_shape": true,
+                  "name": "40-1675A053019",
+                  "occurrence": 706017,
+                  "occurrence_name": " ",
+                  "pid": "40-1675A053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 473336,
+                  "has_shape": true,
+                  "name": "40-1675A053019",
+                  "occurrence": 706018,
+                  "occurrence_name": " ",
+                  "pid": "40-1675A053019"
+                }
+              ],
+              "definition": 436840,
+              "has_shape": true,
+              "name": "30-4024A053019",
+              "occurrence": 706008,
+              "occurrence_name": " ",
+              "pid": "30-4024A053019"
+            }
+          ],
+          "definition": 400208,
+          "has_shape": true,
+          "name": "Tool Changer Arm_SMTC 50 PCKT 40T CT UMC-500 37-4175",
+          "occurrence": 705985,
+          "occurrence_name": " ",
+          "pid": "Tool Changer Arm_SMTC 50 PCKT 40T CT UMC-500 37-4175"
+        },
+        {
+          "bodies": 0,
+          "children": [
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 560553,
+                  "has_shape": true,
+                  "name": "10000085888053019",
+                  "occurrence": 706178,
+                  "occurrence_name": " ",
+                  "pid": "10000085888053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 524114,
+                  "has_shape": true,
+                  "name": "10000085889053019",
+                  "occurrence": 706179,
+                  "occurrence_name": " ",
+                  "pid": "10000085889053019"
+                }
+              ],
+              "definition": 487731,
+              "has_shape": true,
+              "name": "10000085886053019",
+              "occurrence": 706164,
+              "occurrence_name": " ",
+              "pid": "10000085886053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 305394,
+              "has_shape": true,
+              "name": "10000096964053019",
+              "occurrence": 706176,
+              "occurrence_name": " ",
+              "pid": "10000096964053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 451524,
+              "has_shape": true,
+              "name": "10000107343",
+              "occurrence": 706165,
+              "occurrence_name": " ",
+              "pid": "10000107343"
+            },
+            {
+              "bodies": 1,
+              "definition": 451524,
+              "has_shape": true,
+              "name": "10000107343",
+              "occurrence": 706166,
+              "occurrence_name": " ",
+              "pid": "10000107343"
+            },
+            {
+              "bodies": 1,
+              "definition": 451524,
+              "has_shape": true,
+              "name": "10000107343",
+              "occurrence": 706177,
+              "occurrence_name": " ",
+              "pid": "10000107343"
+            },
+            {
+              "bodies": 1,
+              "definition": 414960,
+              "has_shape": true,
+              "name": "10000115087053019",
+              "occurrence": 706167,
+              "occurrence_name": " ",
+              "pid": "10000115087053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 378336,
+              "has_shape": true,
+              "name": "50-0042_02053019",
+              "occurrence": 706168,
+              "occurrence_name": " ",
+              "pid": "50-0042_02053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 378336,
+              "has_shape": true,
+              "name": "50-0042_02053019",
+              "occurrence": 706169,
+              "occurrence_name": " ",
+              "pid": "50-0042_02053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 378336,
+              "has_shape": true,
+              "name": "50-0042_02053019",
+              "occurrence": 706170,
+              "occurrence_name": " ",
+              "pid": "50-0042_02053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 378336,
+              "has_shape": true,
+              "name": "50-0042_02053019",
+              "occurrence": 706171,
+              "occurrence_name": " ",
+              "pid": "50-0042_02053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 341914,
+              "has_shape": true,
+              "name": "50-3300_02053019",
+              "occurrence": 706172,
+              "occurrence_name": " ",
+              "pid": "50-3300_02053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 341914,
+              "has_shape": true,
+              "name": "50-3300_02053019",
+              "occurrence": 706173,
+              "occurrence_name": " ",
+              "pid": "50-3300_02053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 341914,
+              "has_shape": true,
+              "name": "50-3300_02053019",
+              "occurrence": 706174,
+              "occurrence_name": " ",
+              "pid": "50-3300_02053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 341914,
+              "has_shape": true,
+              "name": "50-3300_02053019",
+              "occurrence": 706175,
+              "occurrence_name": " ",
+              "pid": "50-3300_02053019"
+            }
+          ],
+          "definition": 268820,
+          "has_shape": true,
+          "name": "X Axis_SADDLE",
+          "occurrence": 705979,
+          "occurrence_name": " ",
+          "pid": "X Axis_SADDLE"
+        },
+        {
+          "bodies": 0,
+          "children": [
+            {
+              "bodies": 1,
+              "definition": 196018,
+              "has_shape": true,
+              "name": "10000085569053019",
+              "occurrence": 706156,
+              "occurrence_name": " ",
+              "pid": "10000085569053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 196018,
+              "has_shape": true,
+              "name": "10000085569053019",
+              "occurrence": 706158,
+              "occurrence_name": " ",
+              "pid": "10000085569053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 159656,
+              "has_shape": true,
+              "name": "10000096841053019",
+              "occurrence": 706157,
+              "occurrence_name": " ",
+              "pid": "10000096841053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 232275,
+              "has_shape": true,
+              "name": "10000097381053019",
+              "occurrence": 706155,
+              "occurrence_name": " ",
+              "pid": "10000097381053019"
+            },
+            {
+              "bodies": 2,
+              "definition": 123122,
+              "has_shape": true,
+              "name": "10000107860053019",
+              "occurrence": 706159,
+              "occurrence_name": " ",
+              "pid": "10000107860053019"
+            },
+            {
+              "bodies": 2,
+              "definition": 123122,
+              "has_shape": true,
+              "name": "10000107860053019",
+              "occurrence": 706160,
+              "occurrence_name": " ",
+              "pid": "10000107860053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 86625,
+              "has_shape": true,
+              "name": "10000115056053019",
+              "occurrence": 706161,
+              "occurrence_name": " ",
+              "pid": "10000115056053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 50245,
+              "has_shape": true,
+              "name": "50-3300_01053019",
+              "occurrence": 706162,
+              "occurrence_name": " ",
+              "pid": "50-3300_01053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 50245,
+              "has_shape": true,
+              "name": "50-3300_01053019",
+              "occurrence": 706163,
+              "occurrence_name": " ",
+              "pid": "50-3300_01053019"
+            }
+          ],
+          "definition": 13789,
+          "has_shape": true,
+          "name": "Y Axis_RAM",
+          "occurrence": 705980,
+          "occurrence_name": " ",
+          "pid": "Y Axis_RAM"
+        },
+        {
+          "bodies": 0,
+          "children": [
+            {
+              "bodies": 1,
+              "definition": 683330,
+              "has_shape": true,
+              "name": "10000083433053019",
+              "occurrence": 706120,
+              "occurrence_name": " ",
+              "pid": "10000083433053019"
+            },
+            {
+              "bodies": 3,
+              "definition": 501306,
+              "has_shape": true,
+              "name": "10000085610053019",
+              "occurrence": 706124,
+              "occurrence_name": " ",
+              "pid": "10000085610053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 465076,
+              "has_shape": true,
+              "name": "10000085772053019",
+              "occurrence": 706125,
+              "occurrence_name": " ",
+              "pid": "10000085772053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 465076,
+              "has_shape": true,
+              "name": "10000085772053019",
+              "occurrence": 706126,
+              "occurrence_name": " ",
+              "pid": "10000085772053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 428511,
+              "has_shape": true,
+              "name": "10000091530053019",
+              "occurrence": 706127,
+              "occurrence_name": " ",
+              "pid": "10000091530053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 391863,
+              "has_shape": true,
+              "name": "10000092859053019",
+              "occurrence": 706128,
+              "occurrence_name": " ",
+              "pid": "10000092859053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 610684,
+                  "has_shape": true,
+                  "name": "10000083474053019",
+                  "occurrence": 706152,
+                  "occurrence_name": " ",
+                  "pid": "10000083474053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 574131,
+                  "has_shape": true,
+                  "name": "10000098236",
+                  "occurrence": 706153,
+                  "occurrence_name": " ",
+                  "pid": "10000098236"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 574131,
+                  "has_shape": true,
+                  "name": "10000098236",
+                  "occurrence": 706154,
+                  "occurrence_name": " ",
+                  "pid": "10000098236"
+                }
+              ],
+              "definition": 537544,
+              "has_shape": true,
+              "name": "10000098237053019",
+              "occurrence": 706122,
+              "occurrence_name": " ",
+              "pid": "10000098237053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 610684,
+                  "has_shape": true,
+                  "name": "10000083474053019",
+                  "occurrence": 706152,
+                  "occurrence_name": " ",
+                  "pid": "10000083474053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 574131,
+                  "has_shape": true,
+                  "name": "10000098236",
+                  "occurrence": 706153,
+                  "occurrence_name": " ",
+                  "pid": "10000098236"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 574131,
+                  "has_shape": true,
+                  "name": "10000098236",
+                  "occurrence": 706154,
+                  "occurrence_name": " ",
+                  "pid": "10000098236"
+                }
+              ],
+              "definition": 537544,
+              "has_shape": true,
+              "name": "10000098237053019",
+              "occurrence": 706123,
+              "occurrence_name": " ",
+              "pid": "10000098237053019"
+            },
+            {
+              "bodies": 1,
+              "definition": 646952,
+              "has_shape": true,
+              "name": "10000117305053019",
+              "occurrence": 706121,
+              "occurrence_name": " ",
+              "pid": "10000117305053019"
+            },
+            {
+              "bodies": 0,
+              "children": [
+                {
+                  "bodies": 1,
+                  "definition": 405421,
+                  "has_shape": true,
+                  "name": "10000098331053019",
+                  "occurrence": 706135,
+                  "occurrence_name": " ",
+                  "pid": "10000098331053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 442074,
+                  "has_shape": true,
+                  "name": "58-0658053019",
+                  "occurrence": 706131,
+                  "occurrence_name": " ",
+                  "pid": "58-0658053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 442074,
+                  "has_shape": true,
+                  "name": "58-0658053019",
+                  "occurrence": 706132,
+                  "occurrence_name": " ",
+                  "pid": "58-0658053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 442074,
+                  "has_shape": true,
+                  "name": "58-0658053019",
+                  "occurrence": 706133,
+                  "occurrence_name": " ",
+                  "pid": "58-0658053019"
+                },
+                {
+                  "bodies": 1,
+                  "definition": 442074,
+                  "has_shape": true,
+                  "name": "58-0658053019",
+                  "occurrence": 706134,
+                  "occurrence_name": " ",
+                  "pid": "58-0658053019"
+                },
+                {
+                  "bodies": 0,
+                  "children": [
+                    {
+                      "bodies": 0,
+                      "children": [
+                        {
+                          "bodies": 0,
+                          "children": [
+                            {
+                              "bodies": 0,
+                              "children": [
+                                {
+                                  "bodies": 1,
+                                  "definition": 318977,
+                                  "has_shape": true,
+                                  "name": "20-7021D053019",
+                                  "occurrence": 706151,
+                                  "occurrence_name": " ",
+                                  "pid": "20-7021D053019"
+                                }
+                              ],
+                              "definition": 282405,
+                              "has_shape": true,
+                              "name": "10000008003053019",
+                              "occurrence": 706139,
+                              "occurrence_name": " ",
+                              "pid": "10000008003053019"
+                            },
+                            {
+                              "bodies": 1,
+                              "definition": 209429,
+                              "has_shape": true,
+                              "name": "10000068573053019",
+                              "occurrence": 706141,
+                              "occurrence_name": " ",
+                              "pid": "10000068573053019"
+                            },
+                            {
+                              "bodies": 1,
+                              "definition": 355454,
+                              "has_shape": true,
+                              "name": "20-4196C053019",
+                              "occurrence": 706138,
+                              "occurrence_name": " ",
+                              "pid": "20-4196C053019"
+                            },
+                            {
+                              "bodies": 1,
+                              "definition": 245878,
+                              "has_shape": true,
+                              "name": "20-4936A053019",
+                              "occurrence": 706140,
+                              "occurrence_name": " ",
+                              "pid": "20-4936A053019"
+                            },
+                            {
+                              "bodies": 1,
+                              "definition": 173210,
+                              "has_shape": true,
+                              "name": "20-5614053019",
+                              "occurrence": 706142,
+                              "occurrence_name": " ",
+                              "pid": "20-5614053019"
+                            },
+                            {
+                              "bodies": 1,
+                              "definition": 136712,
+                              "has_shape": true,
+                              "name": "59-1132053019",
+                              "occurrence": 706143,
+                              "occurrence_name": " ",
+                              "pid": "59-1132053019"
+                            },
+                            {
+                              "bodies": 1,
+                              "definition": 100188,
+                              "has_shape": true,
+                              "name": "59-1133053019",
+                              "occurrence": 706144,
+                              "occurrence_name": " ",
+                              "pid": "59-1133053019"
+                            },
+                            {
+                              "bodies": 1,
+                              "definition": 63786,
+                              "has_shape": true,
+                              "name": "59-1134053019",
+                              "occurrence": 706145,
+                              "occurrence_name": " ",
+                              "pid": "59-1134053019"
+                            },
+                            {
+                              "bodies": 1,
+                              "definition": 27305,
+                              "has_shape": true,
+                              "name": "59-1135053019",
+                              "occurrence": 706146,
+                              "occurrence_name": " ",
+                              "pid": "59-1135053019"
+                            },
+                            {
+                              "bodies": 1,
+                              "definition": 696994,
+                              "has_shape": true,
+                              "name": "59-1136053019",
+                              "occurrence": 706147,
+                              "occurrence_name": " ",
+                              "pid": "59-1136053019"
+                            },
+                            {
+                              "bodies": 1,
+                              "definition": 660497,
+                              "has_shape": true,
+                              "name": "59-1137053019",
+                              "occurrence": 706148,
+                              "occurrence_name": " ",
+                              "pid": "59-1137053019"
+                            },
+                            {
+                              "bodies": 1,
+                              "definition": 624083,
+                              "has_shape": true,
+                              "name": "59-1138053019",
+                              "occurrence": 706149,
+                              "occurrence_name": " ",
+                              "pid": "59-1138053019"
+                            },
+                            {
+                              "bodies": 1,
+                              "definition": 587634,
+                              "has_shape": true,
+                              "name": "59-1139053019",
+                              "occurrence": 706150,
+                              "occurrence_name": " ",
+                              "pid": "59-1139053019"
+                            }
+                          ],
+                          "definition": 551206,
+                          "has_shape": true,
+                          "name": "10000066255053019",
+                          "occurrence": 706137,
+                          "occurrence_name": " ",
+                          "pid": "10000066255053019"
+                        }
+                      ],
+                      "definition": 514683,
+                      "has_shape": true,
+                      "name": "10000066257053019",
+                      "occurrence": 706136,
+                      "occurrence_name": " ",
+                      "pid": "10000066257053019"
+                    }
+                  ],
+                  "definition": 478395,
+                  "has_shape": true,
+                  "name": "Spindle nose",
+                  "occurrence": 706130,
+                  "occurrence_name": " ",
+                  "pid": "Spindle nose"
+                }
+              ],
+              "definition": 368889,
+              "has_shape": true,
+              "name": "Spindle Face",
+              "occurrence": 706129,
+              "occurrence_name": " ",
+              "pid": "Spindle Face"
+            }
+          ],
+          "definition": 332496,
+          "has_shape": true,
+          "name": "Z Axis_SPINDLE HEAD",
+          "occurrence": 705981,
+          "occurrence_name": " ",
+          "pid": "Z Axis_SPINDLE HEAD"
+        }
+      ],
+      "definition": 656232,
+      "has_shape": true,
+      "name": "UMC-500_SS_Solid_Model_2019-06_r1_STEP",
+      "pid": "UMC-500_SS_Solid_Model_2019-06_r1_STEP"
+    },
+    {
+      "bodies": 0,
+      "definition": 108582,
+      "has_shape": true,
+      "name": "20-3487Pcool",
+      "pid": "20-3487Pcool"
+    }
+  ],
+  "schema": [
+    "AUTOMOTIVE_DESIGN"
+  ]
+}

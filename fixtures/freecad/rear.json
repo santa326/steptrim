@@ -1,0 +1,619 @@
+{
+ "file": "C:/RAVI_T/STEP_STRUCTURE_EDITOR/fixtures/steptools/rear.stp",
+ "import_seconds": 1.52,
+ "objects": 120,
+ "roots": 71,
+ "instances": 120,
+ "tree": [
+  {
+   "label": "Origin",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin001",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis001",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis001",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis001",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane001",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane001",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane001",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin002",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis002",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis002",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis002",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane002",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane002",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane002",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin003",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis003",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis003",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis003",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane003",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane003",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane003",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin004",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis004",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis004",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis004",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane004",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane004",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane004",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin005",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis005",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis005",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis005",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane005",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane005",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane005",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin006",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis006",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis006",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis006",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane006",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane006",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane006",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin007",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis007",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis007",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis007",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane007",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane007",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane007",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin008",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis008",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis008",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis008",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane008",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane008",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane008",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "REAR_LEFT_QUARTER_ASM",
+   "type": "App::Part",
+   "children": [
+    {
+     "label": "TOP_MOUNT",
+     "type": "Part::Feature",
+     "children": []
+    },
+    {
+     "label": "WHEEL_HUB_ASM",
+     "type": "App::Part",
+     "children": [
+      {
+       "label": "CASE",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "LRHUB_SPINDLE_ASSEMBLY_ASM",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "LRHUB_SPINDLE",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "LRHUB_BEARING_2",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "LRHUB_SPACER_2",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "LARGE_GEAR",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "LRHUB_SPACER_1",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "LRHUB_BEARING_1",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "LRHUB_KEYED_WASHER",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "LRHUB_LOCKWASHER",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "LRHUB_LOCKNUT",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "SHAFT_ASM",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "LOWER_BALL_JOINT",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "SHAFT",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "UPPER_BALL_JOINT",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "SMALL_BEARING_TOP",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "SMALL_GEAR",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "SMALL_BEARING_LOWER",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "TIRE_ASM",
+     "type": "App::Part",
+     "children": [
+      {
+       "label": "TIRE",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "RIM",
+       "type": "Part::Feature",
+       "children": []
+      }
+     ]
+    },
+    {
+     "label": "LOWER_MOUNT",
+     "type": "Part::Feature",
+     "children": []
+    },
+    {
+     "label": "LARGE_COVER",
+     "type": "Part::Feature",
+     "children": []
+    },
+    {
+     "label": "FRAME",
+     "type": "Part::Feature",
+     "children": []
+    },
+    {
+     "label": "UPPER_CONTROL_ARM",
+     "type": "Part::Feature",
+     "children": []
+    },
+    {
+     "label": "SMALL_PLATE",
+     "type": "Part::Feature",
+     "children": []
+    },
+    {
+     "label": "BOLT_ONE",
+     "type": "Part::Feature",
+     "children": []
+    },
+    {
+     "label": "WASHER_ONE",
+     "type": "Part::Feature",
+     "children": []
+    },
+    {
+     "label": "NUT_ONE",
+     "type": "Part::Feature",
+     "children": []
+    },
+    {
+     "label": "LOWER_CONTROL_ARM_ASM",
+     "type": "App::Part",
+     "children": [
+      {
+       "label": "MOD_LOWER_CONTROL_ASM",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "MOD_COVER_ONE_ASM",
+         "type": "App::Part",
+         "children": [
+          {
+           "label": "MOD_COVER1_ONE",
+           "type": "Part::Feature",
+           "children": []
+          },
+          {
+           "label": "MOD_COVER1_TWO",
+           "type": "Part::Feature",
+           "children": []
+          }
+         ]
+        },
+        {
+         "label": "CONT_PIECE22",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "CONTROL_PLATE_ASM",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "COVER2_ASM",
+         "type": "App::Part",
+         "children": [
+          {
+           "label": "COVER2_2",
+           "type": "Part::Feature",
+           "children": []
+          },
+          {
+           "label": "COVER2",
+           "type": "Part::Feature",
+           "children": []
+          }
+         ]
+        },
+        {
+         "label": "CONTROL_PLATE1",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "ROD",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "LOWER_SLEEVE",
+       "type": "Part::Feature",
+       "children": []
+      }
+     ]
+    },
+    {
+     "label": "SHOCK",
+     "type": "Part::Feature",
+     "children": []
+    },
+    {
+     "label": "LOWER_CONTROL_MOUNT",
+     "type": "Part::Feature",
+     "children": []
+    },
+    {
+     "label": "LOWER_CONTROL_MOUNT001",
+     "type": "Part::Feature",
+     "children": []
+    },
+    {
+     "label": "SPRING",
+     "type": "Part::Feature",
+     "children": []
+    },
+    {
+     "label": "RADIUS_ROD_BUSHING",
+     "type": "Part::Feature",
+     "children": []
+    }
+   ]
+  },
+  {
+   "label": "Origin009",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis009",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis009",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis009",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane009",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane009",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane009",
+   "type": "App::Plane",
+   "children": []
+  }
+ ]
+}

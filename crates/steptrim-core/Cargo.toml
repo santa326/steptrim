@@ -1,0 +1,11 @@
+[package]
+name = "steptrim-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "StepTrim core: dependency-light ISO 10303-21 (STEP Part 21) scanner, entity table and product-structure extractor"
+
+[dependencies]
+memchr.workspace = true
+rayon.workspace = true
+serde.workspace = true
