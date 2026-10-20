@@ -6,6 +6,7 @@ license.workspace = true
 description = "StepTrim core: dependency-light ISO 10303-21 (STEP Part 21) scanner, entity table and product-structure extractor"
 
 [dependencies]
+earcut = "0.4.11"
 memchr.workspace = true
 rayon.workspace = true
 serde.workspace = true

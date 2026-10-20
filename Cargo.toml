@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["crates/steptrim-core", "crates/steptrim-cli"]
+members = ["crates/steptrim-core", "crates/steptrim-cli", "crates/steptrim-app"]
 
 [workspace.package]
 version = "0.1.0"

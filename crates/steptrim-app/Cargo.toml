@@ -1,0 +1,22 @@
+[package]
+name = "steptrim-app"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "StepTrim desktop app: load, preview, trim and save STEP assemblies"
+
+[[bin]]
+name = "steptrim"
+path = "src/main.rs"
+
+[dependencies]
+steptrim-core = { path = "../steptrim-core" }
+anyhow.workspace = true
+memmap2.workspace = true
+rayon.workspace = true
+eframe = { version = "0.37.0", default-features = false, features = ["wgpu", "default_fonts", "persistence"] }
+bytemuck = { version = "1.25.2", features = ["derive"] }
+glam = "0.34.1"
+rfd = "0.17.2"
+env_logger = "0.11.11"
+log = "0.4.34"

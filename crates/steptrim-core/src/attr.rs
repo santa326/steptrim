@@ -157,6 +157,79 @@ pub fn unescape_simple(s: &[u8]) -> String {
     out
 }
 
+/// Serialize a value as Part 21 text. References are offset by `offset`
+/// (0 keeps the original ids).
+pub fn write_value(out: &mut Vec<u8>, v: &Value, offset: u64) {
+    match v {
+        Value::Ref(r) => {
+            out.push(b'#');
+            out.extend_from_slice((*r as u64 + offset).to_string().as_bytes());
+        }
+        Value::Str(s) => {
+            out.push(b'\'');
+            out.extend_from_slice(s);
+            out.push(b'\'');
+        }
+        Value::Num(n) => out.extend_from_slice(n),
+        Value::Enum(e) => {
+            out.push(b'.');
+            out.extend_from_slice(e);
+            out.push(b'.');
+        }
+        Value::Null => out.push(b'$'),
+        Value::Derived => out.push(b'*'),
+        Value::List(l) => {
+            out.push(b'(');
+            for (i, x) in l.iter().enumerate() {
+                if i > 0 {
+                    out.push(b',');
+                }
+                write_value(out, x, offset);
+            }
+            out.push(b')');
+        }
+        Value::Typed(name, inner) => {
+            out.extend_from_slice(name);
+            out.push(b'(');
+            write_value(out, inner, offset);
+            out.push(b')');
+        }
+    }
+}
+
+fn write_attr_list(out: &mut Vec<u8>, attrs: &[Value], offset: u64) {
+    out.push(b'(');
+    for (i, v) in attrs.iter().enumerate() {
+        if i > 0 {
+            out.push(b',');
+        }
+        write_value(out, v, offset);
+    }
+    out.push(b')');
+}
+
+/// Serialize a simple entity instance: `#id=TYPE(attrs);` (no line ending).
+pub fn write_simple(out: &mut Vec<u8>, id: u64, type_name: &str, attrs: &[Value], offset: u64) {
+    out.push(b'#');
+    out.extend_from_slice(id.to_string().as_bytes());
+    out.push(b'=');
+    out.extend_from_slice(type_name.as_bytes());
+    write_attr_list(out, attrs, offset);
+    out.push(b';');
+}
+
+/// Serialize a complex instance: `#id=(A(attrs)B(attrs));` (no line ending).
+pub fn write_complex(out: &mut Vec<u8>, id: u64, parts: &[(&[u8], Vec<Value>)], offset: u64) {
+    out.push(b'#');
+    out.extend_from_slice(id.to_string().as_bytes());
+    out.extend_from_slice(b"=(");
+    for (name, attrs) in parts {
+        out.extend_from_slice(name);
+        write_attr_list(out, attrs, offset);
+    }
+    out.extend_from_slice(b");");
+}
+
 #[derive(Debug, Clone)]
 pub struct AttrError {
     pub at: usize,

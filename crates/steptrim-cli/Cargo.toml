@@ -20,3 +20,7 @@ itoa = "1"
 [[bin]]
 name = "stepreplicate"
 path = "src/replicate.rs"
+
+[[bin]]
+name = "stepprune"
+path = "src/prune_main.rs"

@@ -1,0 +1,453 @@
+{
+ "file": "C:/RAVI_T/STEP_STRUCTURE_EDITOR/fixtures/generated/as1-trimmed.stp",
+ "import_seconds": 3.08,
+ "objects": 87,
+ "roots": 64,
+ "instances": 87,
+ "tree": [
+  {
+   "label": "Origin",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin001",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis001",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis001",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis001",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane001",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane001",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane001",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin002",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis002",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis002",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis002",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane002",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane002",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane002",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin003",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis003",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis003",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis003",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane003",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane003",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane003",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin004",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis004",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis004",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis004",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane004",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane004",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane004",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin005",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis005",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis005",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis005",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane005",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane005",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane005",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin006",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis006",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis006",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis006",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane006",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane006",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane006",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "Origin007",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis007",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis007",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis007",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane007",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane007",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane007",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "as1 1",
+   "type": "App::Part",
+   "children": [
+    {
+     "label": "as1 1.1",
+     "type": "App::Part",
+     "children": [
+      {
+       "label": "as1 1.1.1",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "as1 1.1.2",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "as1 1.1.2.1",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "as1 1.1.2.2",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "as1 1.1.003",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "as1 1.1.2.003",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "as1 1.1.2.004",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "as1 1.1.004",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "as1 1.1.2.005",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "as1 1.1.2.006",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "as1 1.2",
+     "type": "Part::Feature",
+     "children": []
+    },
+    {
+     "label": "as1 1.003",
+     "type": "App::Part",
+     "children": [
+      {
+       "label": "as1 1.1.005",
+       "type": "Part::Feature",
+       "children": []
+      },
+      {
+       "label": "as1 1.1.006",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "as1 1.1.2.007",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "as1 1.1.2.008",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "as1 1.1.007",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "as1 1.1.2.009",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "as1 1.1.2.010",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      },
+      {
+       "label": "as1 1.1.008",
+       "type": "App::Part",
+       "children": [
+        {
+         "label": "as1 1.1.2.011",
+         "type": "Part::Feature",
+         "children": []
+        },
+        {
+         "label": "as1 1.1.2.012",
+         "type": "Part::Feature",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Origin008",
+   "type": "App::Origin",
+   "children": []
+  },
+  {
+   "label": "X-axis008",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Y-axis008",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "Z-axis008",
+   "type": "App::Line",
+   "children": []
+  },
+  {
+   "label": "XY-plane008",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "XZ-plane008",
+   "type": "App::Plane",
+   "children": []
+  },
+  {
+   "label": "YZ-plane008",
+   "type": "App::Plane",
+   "children": []
+  }
+ ]
+}

@@ -7,7 +7,10 @@
 //! table without touching geometry.
 
 pub mod attr;
+pub mod geom;
 pub mod header;
+pub mod prune;
+pub mod sample;
 pub mod scan;
 pub mod structure;
 
