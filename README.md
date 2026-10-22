@@ -435,5 +435,7 @@ within 5 of FreeCAD's 115 and 341; the residual is not yet explained.
   the CAx-IF recommended practices for validation properties; the Open CASCADE STEP and mesh
   user guides.
 
-StepTrim's own licence has not been chosen yet; add a LICENSE file before making the repository
-public.
+## Licence
+
+StepTrim is released under the MIT License; see [LICENSE](LICENSE). FreeCAD and Open CASCADE
+are separate programs under their own licences and are not distributed with StepTrim.
