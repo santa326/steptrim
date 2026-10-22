@@ -9,7 +9,7 @@ Open CASCADE kernel for just that part.
 
 Design document: [docs/StepTrim_Design.md](docs/StepTrim_Design.md)
 (live copy: <https://claude.ai/code/artifact/16b44a95-789d-42d4-ae2f-6b6396d58d9d>).
-Repository: <https://github.com/santa326/steptrim> (private).
+Repository: <https://github.com/santa326/steptrim>.
 
 ## Download
 
