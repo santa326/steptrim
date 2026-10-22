@@ -2354,6 +2354,7 @@ dependencies = [
  "memmap2",
  "rayon",
  "rfd",
+ "serde_json",
  "steptrim-core",
 ]
 

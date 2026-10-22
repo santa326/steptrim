@@ -73,6 +73,8 @@ pub struct GeomDraw {
     pub surfels: (u32, u32),
     /// Triangle mesh: (first index, index count, base vertex).
     pub mesh: (u32, u32, u32),
+    /// The mesh is an exact kernel tessellation: draw it in every mode.
+    pub full: bool,
 }
 
 /// Everything the UI thread hands to the renderer. Geometry arrays only
@@ -658,14 +660,14 @@ impl CallbackTrait for DrawCallback {
             }
         }
         let Some(ibg) = &r.instance_bg else { return };
-        if r.show_mesh {
+        if r.show_mesh || r.draws.iter().any(|d| d.full) {
             if let (Some(vb), Some(ib)) = (&r.mesh_vb.buf, &r.mesh_ib.buf) {
                 pass.set_pipeline(&r.mesh);
                 pass.set_vertex_buffer(0, vb.slice(..));
                 pass.set_index_buffer(ib.slice(..), wgpu::IndexFormat::Uint32);
                 let vstride = std::mem::size_of::<MeshVertexRaw>() as u64;
                 for d in &r.draws {
-                    if d.mesh.1 == 0 {
+                    if d.mesh.1 == 0 || !(r.show_mesh || d.full) {
                         continue;
                     }
                     let last_index_byte = (d.mesh.0 + d.mesh.1) as u64 * 4;
@@ -684,7 +686,7 @@ impl CallbackTrait for DrawCallback {
             pass.set_vertex_buffer(0, r.quad_vb.slice(..));
             pass.set_index_buffer(r.quad_ib.slice(..), wgpu::IndexFormat::Uint16);
             for d in &r.draws {
-                if d.surfels.1 == 0 {
+                if d.surfels.1 == 0 || d.full {
                     continue;
                 }
                 let end = (d.surfels.0 + d.surfels.1) as u64 * surfel_bytes;

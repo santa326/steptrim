@@ -4,12 +4,13 @@
 
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
+mod fullload;
 mod loader;
 mod viewer;
 
 use eframe::egui;
 use loader::{LoadEvent, Loaded};
-use std::collections::HashSet;
+use std::collections::{HashMap, HashSet};
 use std::path::PathBuf;
 use std::sync::atomic::{AtomicBool, Ordering};
 use std::sync::mpsc::{channel, Receiver, Sender};
@@ -43,6 +44,10 @@ struct CliArgs {
     export_dir: Option<PathBuf>,
     /// Export the selection as one STEP file keeping the assembly structure.
     export_one: Option<PathBuf>,
+    /// Full-load (kernel tessellation) of the selection once loaded.
+    full_load: bool,
+    /// Isolate the selection (hide everything else) once loaded.
+    isolate: bool,
 }
 
 fn parse_args() -> CliArgs {
@@ -71,6 +76,8 @@ fn parse_args() -> CliArgs {
             }
             "--export-dir" => out.export_dir = it.next().map(PathBuf::from),
             "--export-one" => out.export_one = it.next().map(PathBuf::from),
+            "--full-load" => out.full_load = true,
+            "--isolate" => out.isolate = true,
             _ => out.path = Some(PathBuf::from(a)),
         }
     }
@@ -150,6 +157,13 @@ struct App {
     total_lines: usize,
     total_triangles: usize,
     body_mode: BodyMode,
+    /// Per definition: exact kernel mesh range in the scene arrays.
+    def_full: Vec<Option<(u32, u32, u32)>>,
+    /// Kept so a resample (which clears the scene arrays) can restore them.
+    full_store: HashMap<u32, (Vec<MeshVertexRaw>, Vec<u32>)>,
+    full_loading: bool,
+    full_pending: usize,
+    freecad: Option<PathBuf>,
 
     inst_children: Vec<Vec<u32>>,
     removed_occ: Vec<bool>,
@@ -223,6 +237,8 @@ impl App {
             && args.hide.is_empty()
             && args.export_dir.is_none()
             && args.export_one.is_none()
+            && !args.full_load
+            && !args.isolate
         {
             None
         } else {
@@ -254,6 +270,11 @@ impl App {
             total_lines: 0,
             total_triangles: 0,
             body_mode,
+            def_full: Vec::new(),
+            full_store: HashMap::new(),
+            full_loading: false,
+            full_pending: 0,
+            freecad: fullload::find_freecad(),
             inst_children: Vec::new(),
             removed_occ: Vec::new(),
             user_hidden: Vec::new(),
@@ -340,11 +361,17 @@ impl App {
             }
             self.scene_dirty = true;
         }
+        if args.isolate {
+            self.isolate_selected();
+        }
         if let Some(dir) = &args.export_dir {
             self.export_selection_separately(dir.clone(), ctx);
         }
         if let Some(out) = &args.export_one {
             self.export_selection_as_one(out.clone(), ctx);
+        }
+        if args.full_load {
+            self.full_load_selection(ctx);
         }
         if args.fit {
             self.fit_to_selection();
@@ -384,6 +411,10 @@ impl App {
         self.total_surfels = 0;
         self.total_lines = 0;
         self.total_triangles = 0;
+        self.def_full.clear();
+        self.full_store.clear();
+        self.full_loading = false;
+        self.full_pending = 0;
         self.inst_children.clear();
         self.removed_occ.clear();
         self.user_hidden.clear();
@@ -431,6 +462,7 @@ impl App {
                     let nd = loaded.tree.definitions.len();
                     self.def_aabb = vec![None; nd];
                     self.def_geom = vec![None; nd];
+                    self.def_full = vec![None; nd];
                     self.bounds_total = loaded.tree.definitions.iter().filter(|d| d.bodies > 0).count();
                     self.inst_children = vec![Vec::new(); n];
                     for (i, inst) in loaded.instances.iter().enumerate() {
@@ -486,9 +518,102 @@ impl App {
                     self.saving = false;
                     self.error = Some(format!("Save failed: {message}"));
                 }
+                LoadEvent::FullMesh { gen, def, vertices, indices } if gen == self.generation => {
+                    log::info!("full mesh for definition {def}: {} triangles", indices.len() / 3);
+                    let v: Vec<MeshVertexRaw> = vertices.iter().map(|x| MeshVertexRaw { pos: x.pos, nrm: x.nrm }).collect();
+                    self.full_store.insert(def, (v, indices));
+                    self.append_full_mesh(def);
+                    self.full_pending = self.full_pending.saturating_sub(1);
+                }
+                LoadEvent::FullLoadDone { gen, ok, failed, message } if gen == self.generation => {
+                    self.full_loading = false;
+                    self.full_pending = 0;
+                    self.stage = "ready".into();
+                    log::info!("full load done: ok={ok} failed={failed}: {message}");
+                    if failed > 0 && ok == 0 {
+                        self.error = Some(message);
+                    } else {
+                        self.notice = Some(message);
+                    }
+                }
                 _ => {}
             }
         }
+    }
+
+    /// Put a stored exact mesh into the scene arrays and point the
+    /// definition at it.
+    fn append_full_mesh(&mut self, def: u32) {
+        let Some((v, i)) = self.full_store.get(&def) else { return };
+        if (def as usize) >= self.def_full.len() {
+            return;
+        }
+        let mut s = self.scene.lock().unwrap();
+        let vbase = s.mesh_vertices.len() as u32;
+        s.mesh_vertices.extend_from_slice(v);
+        let i0 = s.mesh_indices.len() as u32;
+        s.mesh_indices.extend_from_slice(i);
+        self.scene_version += 1;
+        s.geom_version = self.scene_version;
+        drop(s);
+        self.def_full[def as usize] = Some((i0, i.len() as u32, vbase));
+        self.scene_dirty = true;
+    }
+
+    /// Leaf part definitions under the selection, deduplicated.
+    fn selected_part_definitions(&self) -> Vec<u32> {
+        let Some(loaded) = &self.loaded else { return Vec::new() };
+        let mask = self.selection_mask();
+        let mut defs: Vec<u32> = Vec::new();
+        for (i, inst) in loaded.instances.iter().enumerate() {
+            if !mask[i] || self.hidden[i] {
+                continue;
+            }
+            let d = inst.definition;
+            if loaded.tree.definitions[d as usize].bodies > 0 && !defs.contains(&d) {
+                defs.push(d);
+            }
+        }
+        defs
+    }
+
+    /// Tessellate the selected parts exactly with the kernel worker.
+    fn full_load_selection(&mut self, ctx: &egui::Context) {
+        let Some(loaded) = self.loaded.clone() else { return };
+        let Some(freecad) = self.freecad.clone() else {
+            self.error = Some("Full load needs FreeCAD (FreeCADCmd.exe) for its Open CASCADE kernel; install FreeCAD 1.0 or set STEPTRIM_FREECAD to the executable.".into());
+            return;
+        };
+        let defs: Vec<u32> = self.selected_part_definitions().into_iter().filter(|d| self.def_full[*d as usize].is_none()).collect();
+        if defs.is_empty() {
+            self.notice = Some("Select parts that are not fully loaded yet.".into());
+            return;
+        }
+        let jobs: Vec<fullload::FullLoadJob> = defs
+            .iter()
+            .map(|&d| {
+                let diag = self.def_aabb[d as usize]
+                    .map(|b| {
+                        let s = b.size();
+                        (s[0] * s[0] + s[1] * s[1] + s[2] * s[2]).sqrt()
+                    })
+                    .unwrap_or(100.0);
+                fullload::FullLoadJob { def: d, name: loaded.tree.definition_name(d).to_string(), diag }
+            })
+            .collect();
+        self.full_loading = true;
+        self.full_pending = jobs.len();
+        self.error = None;
+        self.notice = Some(format!("Full load: tessellating {} part(s) with Open CASCADE…", jobs.len()));
+        fullload::spawn_full_load(self.generation, loaded, jobs, freecad, self.tx.clone(), ctx.clone());
+    }
+
+    fn clear_full_loads(&mut self) {
+        self.full_store.clear();
+        for f in self.def_full.iter_mut() {
+            *f = None;
+        }
+        self.scene_dirty = true;
     }
 
     /// Append a definition's lines and surfels to the shared scene arrays,
@@ -560,6 +685,14 @@ impl App {
             self.scene_version += 1;
             s.geom_version = self.scene_version;
             s.draw_version = self.scene_version;
+        }
+        // Exact meshes live in the same arrays; put them back.
+        for f in self.def_full.iter_mut() {
+            *f = None;
+        }
+        let keys: Vec<u32> = self.full_store.keys().copied().collect();
+        for d in keys {
+            self.append_full_mesh(d);
         }
         self.scene_dirty = true;
         let bounds: Vec<Option<steptrim_core::geom::DefBounds>> =
@@ -1007,7 +1140,8 @@ impl App {
             };
             let m = w.m;
             let geom = self.def_geom[def as usize];
-            let has_geom = geom.map(|g| g.lines.1 > 0 || g.surfels.1 > 0 || g.mesh.1 > 0).unwrap_or(false);
+            let full = self.def_full[def as usize];
+            let has_geom = geom.map(|g| g.lines.1 > 0 || g.surfels.1 > 0 || g.mesh.1 > 0).unwrap_or(false) || full.is_some();
             if let Some(b) = local {
                 if self.show_boxes || !has_geom {
                     let c = b.center();
@@ -1023,17 +1157,23 @@ impl App {
                     boxes.push(InstanceRaw { model, color });
                 }
             }
-            if let Some(g) = geom {
-                if has_geom && (self.show_lines || self.show_surfels || self.body_mode == BodyMode::Mesh) {
-                    let model = [
-                        m[0][0] as f32, m[1][0] as f32, m[2][0] as f32, 0.0,
-                        m[0][1] as f32, m[1][1] as f32, m[2][1] as f32, 0.0,
-                        m[0][2] as f32, m[1][2] as f32, m[2][2] as f32, 0.0,
-                        (w.t[0] - origin.x) as f32, (w.t[1] - origin.y) as f32, (w.t[2] - origin.z) as f32, 1.0,
-                    ];
-                    let idx = uniforms.len() as u32;
-                    uniforms.push(InstanceUniform { model, color });
-                    draws.push(GeomDraw { instance: idx, lines: g.lines, surfels: g.surfels, mesh: g.mesh });
+            if has_geom && (self.show_lines || self.show_surfels || self.body_mode == BodyMode::Mesh || full.is_some()) {
+                let model = [
+                    m[0][0] as f32, m[1][0] as f32, m[2][0] as f32, 0.0,
+                    m[0][1] as f32, m[1][1] as f32, m[2][1] as f32, 0.0,
+                    m[0][2] as f32, m[1][2] as f32, m[2][2] as f32, 0.0,
+                    (w.t[0] - origin.x) as f32, (w.t[1] - origin.y) as f32, (w.t[2] - origin.z) as f32, 1.0,
+                ];
+                let idx = uniforms.len() as u32;
+                uniforms.push(InstanceUniform { model, color });
+                let lines = geom.map(|g| g.lines).unwrap_or((0, 0));
+                match full {
+                    // Exact kernel mesh: drawn in every body mode, sampled surfels and grid mesh suppressed.
+                    Some(fm) => draws.push(GeomDraw { instance: idx, lines, surfels: (0, 0), mesh: fm, full: true }),
+                    None => {
+                        let g = geom.unwrap_or(GeomRange { lines: (0, 0), surfels: (0, 0), mesh: (0, 0, 0) });
+                        draws.push(GeomDraw { instance: idx, lines: g.lines, surfels: g.surfels, mesh: g.mesh, full: false });
+                    }
                 }
             }
         }
@@ -1146,6 +1286,9 @@ impl App {
         if user_hidden {
             label.push_str("  · hidden");
         }
+        if self.def_full.get(def as usize).map(|f| f.is_some()).unwrap_or(false) {
+            label.push_str("  · B-rep");
+        }
         let mut text = egui::RichText::new(label);
         if removed {
             text = text.strikethrough().color(egui::Color32::from_rgb(200, 80, 80));
@@ -1254,6 +1397,11 @@ impl App {
             }
             if self.user_hidden_count() > 0 && ui.button("Show all  (U)").clicked() {
                 self.show_all();
+                ui.close();
+            }
+            ui.separator();
+            if ui.button("Full load  (exact B-rep)").on_hover_text("tessellate the selected parts with Open CASCADE through FreeCAD; replaces the sampled bodies").clicked() {
+                self.full_load_selection(ctx_of(ui));
                 ui.close();
             }
             ui.separator();
@@ -1492,6 +1640,18 @@ impl App {
             ui.label(format!("{} surfels now", fmt(self.total_surfels as u64)));
         });
         ui.label(egui::RichText::new("Denser sampling costs time and GPU memory roughly with the square of the samples-across value; 56 is the default.").small().color(egui::Color32::GRAY));
+        ui.separator();
+        let nfull = self.def_full.iter().filter(|f| f.is_some()).count();
+        ui.horizontal(|ui| {
+            ui.label(format!("Exact B-rep meshes: {} part(s)", nfull));
+            if ui.add_enabled(nfull > 0, egui::Button::new("Clear")).clicked() {
+                self.clear_full_loads();
+            }
+        });
+        match &self.freecad {
+            Some(p) => ui.label(egui::RichText::new(format!("kernel host: {}", p.display())).small().color(egui::Color32::GRAY)),
+            None => ui.label(egui::RichText::new("kernel host: FreeCAD not found (set STEPTRIM_FREECAD)").small().color(egui::Color32::from_rgb(230, 150, 90))),
+        };
     }
 
     /// Selection by part size: a range of box diagonals.
@@ -1631,7 +1791,7 @@ impl eframe::App for App {
         }
         self.hover_tree = None;
         self.last_row_order = std::mem::take(&mut self.row_order);
-        if self.loading || self.saving || self.sampling {
+        if self.loading || self.saving || self.sampling || self.full_loading {
             ctx.request_repaint_after(std::time::Duration::from_millis(50));
         }
 
@@ -1676,6 +1836,23 @@ impl eframe::App for App {
                     .clicked()
                 {
                     self.export_separate_dialog(ctx);
+                }
+                ui.separator();
+                let full_hint = match &self.freecad {
+                    Some(p) => format!("exact B-rep tessellation of the selected parts via Open CASCADE ({})", p.display()),
+                    None => "needs FreeCAD (FreeCADCmd.exe); set STEPTRIM_FREECAD if it is installed elsewhere".to_string(),
+                };
+                if ui
+                    .add_enabled(can_edit && has_sel && !self.full_loading && self.freecad.is_some(), egui::Button::new("Full load"))
+                    .on_hover_text(&full_hint)
+                    .on_disabled_hover_text(&full_hint)
+                    .clicked()
+                {
+                    self.full_load_selection(ctx);
+                }
+                if self.full_loading {
+                    ui.spinner();
+                    ui.label(format!("B-rep {} left", self.full_pending));
                 }
                 ui.separator();
                 if ui.add_enabled(can_edit && has_sel, egui::Button::new("Hide")).on_hover_text("H").clicked() {

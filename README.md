@@ -12,7 +12,7 @@ Repository: <https://github.com/santa326/steptrim> (private).
 | --- | --- |
 | `crates/steptrim-core` | Library: parallel Part 21 scanner, entity table, attribute parser, header parser, product tree |
 | `crates/steptrim-cli` | `stepinfo` (scan, stats, tree, JSON, `--bounds`, `--check-refs`), `stepprune` (remove occurrences from the command line, with output check) and `stepreplicate` (build large test files) |
-| `crates/steptrim-app` | `steptrim`, the desktop app: egui + wgpu, progressive load, tree, box and body preview (edges + surfels), pick, filter, select by size, remove/undo, save trimmed |
+| `crates/steptrim-app` | `steptrim`, the desktop app: egui + wgpu, progressive load, tree, box and body preview (edges + surfels + mesh), exact B-rep full load through FreeCAD's kernel, pick, filter, select by size, hide/isolate, remove/undo, save trimmed, export selection |
 | `fixtures/steptools` | Public sample assemblies from steptools.com (downloaded by `tools/download_fixtures.sh`, not in git) |
 | `fixtures/generated` | Files over 1 GB made with `stepreplicate` (not in git) |
 | `fixtures/freecad` | FreeCAD tree dumps for cross-checking (`tools/freecad_tree.py`) |
@@ -78,6 +78,18 @@ everything else), U shows all, and the context menu has Hide, Isolate, Show and 
 Hidden parts are dimmed and marked in the tree and are still saved. Ctrl+I inverts the
 selection among visible parts; Ctrl+A selects all visible parts.
 
+"Full load" replaces the sampled bodies of the selected parts with an exact B-rep tessellation.
+StepTrim has no CAD kernel of its own, so it borrows one: each selected part is exported as a
+standalone STEP file through the pruner, one FreeCADCmd run (FreeCAD 1.0 hosts Open CASCADE)
+imports and meshes them, and the triangles stream back into the viewer part by part, in the
+part's own frame, so every placed instance of that part shows the exact shape. Parts loaded this
+way are marked "B-rep" in the tree, draw as triangles in both the splats and the mesh mode, and
+survive a Resample; "Clear" in the Splats panel drops them. Files in inches come back from the
+kernel in millimetres and are rescaled to the file's units. FreeCAD is found under Program
+Files or through `STEPTRIM_FREECAD`; the button is disabled without it.
+
+![Full load: the truck's rims as exact B-rep meshes, isolated](docs/screenshots/steptrim-full-load-rims.png)
+
 Export from the selection: "Export selection…" writes one STEP file containing only the
 selected parts with the assembly structure down to them kept; "Export parts…" writes one
 standalone STEP file per selected part into a folder, each part becoming the root of its
@@ -99,8 +111,9 @@ For tests and screenshots the app can be driven without clicks:
 `steptrim file.stp --remove "Cylinder Head" --save out.stp` removes every occurrence whose
 part name contains the text, then saves; `--select NAME` selects matching instances and
 `--fit` fits the view to them; `--samples N` resamples at that density after loading and
-`--mode mesh` starts in mesh mode; `--hide NAME`, `--export-dir DIR` and `--export-one FILE`
-script the visibility and export features.
+`--mode mesh` starts in mesh mode; `--hide NAME`, `--isolate`, `--export-dir DIR` and
+`--export-one FILE` script the visibility and export features, and `--full-load` runs Full load
+on the selection.
 
 ![StepTrim after removing the cylinder heads, with the save notice](docs/screenshots/steptrim-engine-trimmed.png)
 

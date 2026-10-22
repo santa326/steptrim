@@ -50,6 +50,9 @@ pub enum LoadEvent {
     Error { gen: u64, message: String },
     Saved { gen: u64, path: PathBuf, summary: String },
     SaveFailed { gen: u64, message: String },
+    /// Exact tessellation of one definition from the kernel worker.
+    FullMesh { gen: u64, def: u32, vertices: Vec<steptrim_core::sample::MeshVertex>, indices: Vec<u32> },
+    FullLoadDone { gen: u64, ok: usize, failed: usize, message: String },
 }
 
 pub fn spawn(gen: u64, path: PathBuf, tx: Sender<LoadEvent>, ctx: eframe::egui::Context, cancel: Arc<AtomicBool>) {

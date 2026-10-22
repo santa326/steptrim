@@ -14,6 +14,7 @@ steptrim-core = { path = "../steptrim-core" }
 anyhow.workspace = true
 memmap2.workspace = true
 rayon.workspace = true
+serde_json.workspace = true
 eframe = { version = "0.37.0", default-features = false, features = ["wgpu", "default_fonts", "persistence"] }
 bytemuck = { version = "1.25.2", features = ["derive"] }
 glam = "0.34.1"

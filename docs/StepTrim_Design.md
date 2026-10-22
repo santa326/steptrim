@@ -84,7 +84,7 @@ Yes, the preview can avoid solid geometry entirely. The recommended preview is a
 2. Wireframe next. Lines come straight from vertex pairs. Circles need centre, axis, radius and the two endpoints. B-spline curves get 8 to 16 samples from one-dimensional de Boor evaluation. This layer has no trimming problem because edges already lie on the trimmed boundary.
 3. Point cloud as an option for freeform parts, since dense control nets approximate the surface closely ([spline notes](https://uio.no/studier/emner/matnat/ifi/nedlagte-emner/INF-MAT5340/v05/undervisningsmateriale/kap4.pdf)).
 4. Fast path for AP242 files that already carry tessellated faces: draw the triangles directly.
-5. Shaded mesh on demand. Only when the user asks for a selected part, hand it to OCCT in a background worker with loose deflection.
+5. Shaded mesh on demand. Only when the user asks for a selected part, hand it to OCCT in a background worker with loose deflection. Built on 2026-10-20 as "Full load": the selected parts are exported standalone through the pruner, one FreeCADCmd run (FreeCAD 1.0 hosts Open CASCADE) imports and meshes them, and the triangles stream back per part in the part's own frame, so every placed instance shows the exact shape. Files in inches come back in millimetres and are rescaled to the file's units.
 
 Voxels can still be used as the visual style if a blocky look is wanted: voxelise the box or hull proxy into a 32 to 64 cube grid per part and draw instanced cubes. That is cheap, but it is a cosmetic choice on top of the proxy, not a faster way to get geometry out of the file.
 
@@ -176,7 +176,7 @@ Time runs downward. The first lane is what the user sees during each stage. Plai
 
 **Background processes**
 
-- OCCT meshing of a selected part runs in a child process, one part per request. OCCT's STEP reader is not safe to drive from several threads of one process, and a crash in it must not take the editor down.
+- OCCT meshing of selected parts runs in a child process, all parts of one request in one run: FreeCADCmd takes about 4 s to start, then one to seven seconds per part, and each finished part is read back while the next is meshing. OCCT's STEP reader is not safe to drive from several threads of one process, and a crash in it must not take the editor down.
 - The NIST analyzer and the OCCT smoke-read are spawned after save and report into the UI when done.
 
 **What stays serial.** The product tree walk, removal set edits and the header rewrite. All are small. Rust crates: [rayon](https://github.com/rayon-rs/rayon) for the thread pool, [memmap2](https://docs.rs/memmap2) for the input, [memchr](https://docs.rs/memchr) for the SIMD scan, [wgpu](https://wgpu.rs) for compute and render, [egui](https://github.com/emilk/egui) for the tree panel.
@@ -257,7 +257,7 @@ Build everything in Rust: a dependency-free Part 21 core, a native wgpu viewer w
 - Core library in Rust: streaming tokenizer, entity table, product tree, geometry proxies, removal and verbatim writer. Rust compiles to native for a desktop build and to WebAssembly for a browser build from the same source.
 - Shell: a native window with winit, egui for the tree panel and wgpu for the viewport, all in one process. The file stays on disk and is memory-mapped, which matters for multi-hundred-megabyte inputs. The same code compiles to WebAssembly with WebGPU for a browser build later.
 - Viewer: wgpu with one instance buffer for all placements, instanced indirect draws for boxes and per-product line lists, and compute shaders for curve evaluation, culling and picking. Details in the parallelism section.
-- Optional OCCT worker process for shaded meshing of selected parts and for the smoke-read, loaded only when present.
+- Optional OCCT worker process for shaded meshing of selected parts and for the smoke-read, loaded only when present. The meshing half is built on an installed FreeCAD 1.0 (found under Program Files or through STEPTRIM_FREECAD); the smoke-read is still open.
 
 **Alternatives considered.** A Python-only build was rejected on 2026-10-19: pure-Python parsing of a 500 MB file is an order of magnitude slower than compiled code, and the kernel would become a hard dependency. A Tauri shell with a three.js viewer was rejected at the same time because every vertex buffer would cross the web-view boundary and GPU compute would be limited to what the embedded browser engine exposes.
 
