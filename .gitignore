@@ -6,3 +6,4 @@
 /fixtures/**/*.part
 /fixtures/*.log
 *.stpidx
+/dist

@@ -11,6 +11,23 @@ Design document: [docs/StepTrim_Design.md](docs/StepTrim_Design.md)
 (live copy: <https://claude.ai/code/artifact/16b44a95-789d-42d4-ae2f-6b6396d58d9d>).
 Repository: <https://github.com/santa326/steptrim> (private).
 
+## Download
+
+Windows 10 or 11, 64-bit, with a GPU driver that supports Vulkan or DirectX 12. Get the latest
+build from <https://github.com/santa326/steptrim/releases/latest>:
+
+- **StepTrim-Setup-\<version\>.exe**: the installer. It installs for the current user by
+  default, so there is no administrator prompt, and adds a Start Menu entry, an optional desktop
+  shortcut, "Open with" entries for `.stp` and `.step` files, and an uninstaller under
+  Settings → Apps. The command-line tools are installed beside the app.
+- **StepTrim-\<version\>-windows-x64.zip**: the portable build. Unzip anywhere and run
+  `steptrim.exe`; nothing is written outside that folder.
+
+Both are built by GitHub Actions from the tagged source, and `SHA256SUMS.txt` on the release
+page lists their checksums. The binaries are not code-signed yet, so Windows SmartScreen shows
+"Windows protected your PC" the first time: click "More info", then "Run anyway". FreeCAD 1.0
+is optional and only needed for Full load.
+
 ## What it solves
 
 A supplier sends a 1 GB STEP file of a whole machine when you need one sub-assembly. Opening it
@@ -107,6 +124,18 @@ cargo test --release
 
 The public sample assemblies used throughout this README come from STEP Tools, Inc. and are
 downloaded by `tools/download_fixtures.sh`; they are not in the repository.
+
+To cut a release, bump `version` in the workspace `Cargo.toml`, commit, and push a matching tag:
+
+```powershell
+git tag v0.1.0
+git push origin v0.1.0
+```
+
+The release workflow (`.github/workflows/release.yml`) runs the tests, builds the four
+executables, zips them, compiles the installer from `installer/steptrim.iss` with Inno Setup,
+and attaches everything with checksums to a GitHub release. The same workflow can be run by
+hand from the Actions tab to get the files as a workflow artifact without publishing.
 
 ## Tutorial
 
@@ -417,6 +446,8 @@ within 5 of FreeCAD's 115 and 341; the residual is not yet explained.
 | `fixtures/freecad` | FreeCAD tree dumps for cross-checking |
 | `docs/` | Design document, diagrams and screenshots |
 | `tools/` | Fixture download script and the FreeCAD tree dump script |
+| `installer/` | Inno Setup script for the Windows installer |
+| `.github/workflows/` | CI (tests on every push) and the release build |
 
 ## Credits
 
