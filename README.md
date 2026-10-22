@@ -24,9 +24,15 @@ build from <https://github.com/santa326/steptrim/releases/latest>:
   `steptrim.exe`; nothing is written outside that folder.
 
 Both are built by GitHub Actions from the tagged source, and `SHA256SUMS.txt` on the release
-page lists their checksums. The binaries are not code-signed yet, so Windows SmartScreen shows
-"Windows protected your PC" the first time: click "More info", then "Run anyway". FreeCAD 1.0
-is optional and only needed for Full load.
+page lists their checksums. FreeCAD 1.0 is optional and only needed for Full load.
+
+**Code signing policy.** Releases are signed through SignPath Foundation; see
+[CODE_SIGNING_POLICY.md](CODE_SIGNING_POLICY.md). Free code signing provided by
+[SignPath.io](https://about.signpath.io), certificate by
+[SignPath Foundation](https://signpath.org). Releases published before signing was in place
+(0.1.0) are unsigned, and Windows SmartScreen shows "Windows protected your PC" the first time
+they run: click "More info", then "Run anyway". A signed build can still show that screen while
+the certificate builds reputation with Microsoft; it goes away as downloads accumulate.
 
 ## What it solves
 
@@ -133,9 +139,13 @@ git push origin v0.1.0
 ```
 
 The release workflow (`.github/workflows/release.yml`) runs the tests, builds the four
-executables, zips them, compiles the installer from `installer/steptrim.iss` with Inno Setup,
-and attaches everything with checksums to a GitHub release. The same workflow can be run by
-hand from the Actions tab to get the files as a workflow artifact without publishing.
+executables, submits them to SignPath for signing, zips the signed files, compiles the installer
+from `installer/steptrim.iss` with Inno Setup, submits the installer for signing, and attaches
+everything with checksums to a GitHub release. Each signing request waits for a team member's
+approval in SignPath, for up to two hours. The same workflow can be run by hand from the
+Actions tab, either to publish a release for the version in `Cargo.toml` or just to get the
+files as a workflow artifact. The artifact configurations SignPath uses are kept in
+`signing/`.
 
 ## Tutorial
 
@@ -447,6 +457,7 @@ within 5 of FreeCAD's 115 and 341; the residual is not yet explained.
 | `docs/` | Design document, diagrams and screenshots |
 | `tools/` | Fixture download script and the FreeCAD tree dump script |
 | `installer/` | Inno Setup script for the Windows installer |
+| `signing/` | SignPath artifact configurations for the executables and the installer |
 | `.github/workflows/` | CI (tests on every push) and the release build |
 
 ## Credits

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SignPath artifact configuration "binaries" (default): the four StepTrim
+  executables, uploaded as one GitHub Actions artifact (a zip). Every file
+  must carry the product name "StepTrim" and the release version, which
+  the build scripts embed from Cargo.toml. The release workflow passes
+  `version` as a parameter.
+-->
+<artifact-configuration xmlns="http://signpath.io/artifact-configuration/v1">
+  <parameters>
+    <parameter name="version" required="true" />
+  </parameters>
+  <zip-file>
+    <pe-file-set product-name="StepTrim" product-version="${version}" file-version="${version}">
+      <include path="steptrim.exe" />
+      <include path="stepinfo.exe" />
+      <include path="stepprune.exe" />
+      <include path="stepreplicate.exe" />
+      <for-each>
+        <authenticode-sign />
+      </for-each>
+    </pe-file-set>
+  </zip-file>
+</artifact-configuration>

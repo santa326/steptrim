@@ -1,9 +1,15 @@
 ; Inno Setup script for StepTrim. Built in CI by .github/workflows/release.yml with
-;   iscc /DAppVersion=<version> installer\steptrim.iss
-; after `cargo build --release`. Produces dist\StepTrim-Setup-<version>.exe.
+;   iscc /DAppVersion=<version> /DBinDir=<folder with the exes> installer\steptrim.iss
+; after `cargo build --release`. Produces StepTrim-Setup-<version>.exe in OutputDir
+; (..\dist unless overridden with /O).
 
 #ifndef AppVersion
   #define AppVersion "0.0.0"
+#endif
+; Folder holding the four executables to package: the plain build output, or
+; the folder the signed binaries were downloaded to in CI.
+#ifndef BinDir
+  #define BinDir "..\target\release"
 #endif
 
 [Setup]
@@ -34,6 +40,12 @@ PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
 ChangesAssociations=yes
 MinVersion=10.0
+; Version resource of the installer itself; SignPath checks product name and version.
+VersionInfoProductName=StepTrim
+VersionInfoVersion={#AppVersion}
+VersionInfoProductVersion={#AppVersion}
+VersionInfoCompany=Ravi Teja Potineni
+VersionInfoCopyright=Copyright (c) 2026 Ravi Teja Potineni. MIT License.
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
@@ -43,11 +55,12 @@ Name: "desktopicon"; Description: "Create a &desktop shortcut"; GroupDescription
 Name: "assoc"; Description: "Add StepTrim to ""Open with"" for .stp and .step files"; GroupDescription: "File types:"
 
 [Files]
-Source: "..\target\release\steptrim.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\target\release\stepinfo.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\target\release\stepprune.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\target\release\stepreplicate.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#BinDir}\steptrim.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#BinDir}\stepinfo.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#BinDir}\stepprune.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#BinDir}\stepreplicate.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\README.md"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\CODE_SIGNING_POLICY.md"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\LICENSE"; DestDir: "{app}"; DestName: "LICENSE.txt"; Flags: ignoreversion
 
 [Icons]
