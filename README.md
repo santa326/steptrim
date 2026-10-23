@@ -5,6 +5,9 @@ fidelity without a CAD kernel, lets you delete the parts you do not need, and sa
 that still opens in any CAD system. When you want to see a part exactly, it borrows FreeCAD's
 Open CASCADE kernel for just that part.
 
+**[Download the latest release for Windows](https://github.com/santa326/steptrim/releases/latest)**
+(installer or portable zip, 64-bit, free, MIT licensed).
+
 ![StepTrim showing the Scania 8x4 truck as part boxes](docs/screenshots/steptrim-scania-8x4.png)
 
 Design document: [docs/StepTrim_Design.md](docs/StepTrim_Design.md)
@@ -26,13 +29,13 @@ build from <https://github.com/santa326/steptrim/releases/latest>:
 Both are built by GitHub Actions from the tagged source, and `SHA256SUMS.txt` on the release
 page lists their checksums. FreeCAD 1.0 is optional and only needed for Full load.
 
-**Code signing policy.** Releases are signed through SignPath Foundation; see
+**Code signing policy.** The current releases are not code-signed, so Windows SmartScreen
+shows "Windows protected your PC" the first time the installer or the app runs: click "More
+info", then "Run anyway". Compare the file against `SHA256SUMS.txt` if you want to be sure of
+what you downloaded. Signing through SignPath Foundation is being set up; see
 [CODE_SIGNING_POLICY.md](CODE_SIGNING_POLICY.md). Free code signing provided by
 [SignPath.io](https://about.signpath.io), certificate by
-[SignPath Foundation](https://signpath.org). Releases published before signing was in place
-(0.1.0) are unsigned, and Windows SmartScreen shows "Windows protected your PC" the first time
-they run: click "More info", then "Run anyway". A signed build can still show that screen while
-the certificate builds reputation with Microsoft; it goes away as downloads accumulate.
+[SignPath Foundation](https://signpath.org).
 
 ## What it solves
 
