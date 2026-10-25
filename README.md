@@ -463,23 +463,6 @@ within 5 of FreeCAD's 115 and 341; the residual is not yet explained.
 | `signing/` | SignPath artifact configurations for the executables and the installer |
 | `.github/workflows/` | CI (tests on every push) and the release build |
 
-## Credits
-
-- **Ravi Teja Potineni** set the goal, chose the product direction and tested every feature.
-- The design document and the code were written with **Claude Code** (Anthropic's Claude
-  Fable 5.1) under that direction.
-- **FreeCAD** (LGPL-2.1-or-later) and **Open CASCADE Technology** (LGPL-2.1 with exception)
-  provide the exact tessellation behind Full load and the independent reader used for
-  cross-checks. StepTrim runs FreeCADCmd as a separate process and does not link to either.
-- **STEP Tools, Inc.** publishes the sample assemblies used for development and in the
-  screenshots: the Scania engine and truck, the Nissan GT-R, the UMC-500, as1 and rear.
-- Rust crates: eframe and egui (MIT or Apache-2.0), wgpu (MIT or Apache-2.0), rayon, memchr,
-  memmap2, glam, bytemuck, rfd, earcut (ISC, a port of Mapbox's earcut), clap, serde and
-  serde_json, anyhow, log and env_logger, itoa.
-- Standards and references: ISO 10303-21 and the AP203, AP214 and AP242 application protocols;
-  the CAx-IF recommended practices for validation properties; the Open CASCADE STEP and mesh
-  user guides.
-
 ## Licence
 
 StepTrim is released under the MIT License; see [LICENSE](LICENSE). FreeCAD and Open CASCADE

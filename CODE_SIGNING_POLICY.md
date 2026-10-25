@@ -45,4 +45,4 @@ leaves the machine. The installer offers an uninstaller and removes everything i
 ## Licence
 
 StepTrim is released under the [MIT License](LICENSE). It links only open-source Rust crates
-under MIT, Apache-2.0, ISC, Zlib or Unlicense terms, listed in the README's credits.
+under MIT, Apache-2.0, ISC, Zlib or Unlicense terms, listed in the crates' `Cargo.toml` files.
